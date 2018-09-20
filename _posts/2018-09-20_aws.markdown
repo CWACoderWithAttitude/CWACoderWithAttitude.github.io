@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "AWS Bookmarks"
+date:   2018-00-20 10:20:17 +0200
+categories: aws ec2 lambda
+---
+# Links rund um AWS
+
+* [Spot-Instance FAQ](https://aws.amazon.com/de/ec2/faqs/#spot-instances)
+* [Spot Getting Startted](https://aws.amazon.com/de/ec2/spot/getting-started/)
+* [EC2 Doku (handbuch)](https://aws.amazon.com/de/documentation/ec2/)
+* [difference between dedicated instance and dedicated host](https://serverfault.com/questions/808706/what-is-the-difference-between-an-amazon-dedicated-instance-and-a-dedicated-host)
+
+
+* [Funktionsweise von Amazon EC2](https://aws.amazon.com/de/ec2/details/)
+* [Getting started](https://aws.amazon.com/de/getting-started/projects/)
+* [Preise für Amazon EC2 Spot Instances](https://aws.amazon.com/de/ec2/spot/pricing/)
+* [AWS Pricing](https://aws.amazon.com/de/pricing/?nc2=h_ql_pr&awsm=ql-3)
+* [EC2 Pricing](https://aws.amazon.com/de/ec2/pricing/)
+* [EC2 OnDemand Pricing](https://aws.amazon.com/de/ec2/pricing/on-demand/)
+* [EC2 Spot Instances](https://aws.amazon.com/de/ec2/spot/)
+* [EC2 Spot Instance / Console](https://console.aws.amazon.com/ec2sp/v1/spot/home?region=us-east-1)
+* [Instance Types](https://aws.amazon.com/de/ec2/instance-types/)
+* [Api Gateway, CORS Howto](https://docs.aws.amazon.com/de_de/apigateway/latest/developerguide/how-to-cors.html)
+
+* [Howto: Automated AWS spot instance provisioning with persisting of data](https://medium.com/@radekosmulski/automated-aws-spot-instance-provisioning-with-persisting-of-data-ce2b32bdc102)
+* [Replacing EC2 On-Demand Instances With New Spot Instances](https://alestic.com/2018/02/ec2-spot-cloudwatch-events-sns/)
+* [How to create AWS spot instance via AWS CLI](https://stackoverflow.com/questions/48404374/how-to-create-aws-spot-instance-via-aws-cli)
+* [AWS Entwickler-Resourcen](https://aws.amazon.com/de/ec2/developer-resources/)
+* [How to design a serverless backend that scales with your apps success](https://read.acloud.guru/build-a-cost-effective-mobile-backend-for-scale-and-security-4c0c143e898c)
+
+
+## AWS Lambda Zeug
+* [Unit testing](https://medium.com/a-man-with-no-server/unit-testing-a-serverless-application-part-2-8b02f3edb9b5)
+
+## S3
+* [Syncing S3](https://techburst.io/synchronizing-aws-s3-an-overview-5eaa12934d38)
+
+# ec2 docker registry
+* [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
+* [Install Let's Encrypt to Create SSL Certificates](https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/)
+* [Deploying Let’s Encrypt on an Amazon Linux AMI EC2 Instance](https://medium.com/@gnowland/deploying-lets-encrypt-on-an-amazon-linux-ami-ec2-instance-f8e2e8f4fc1f)
+
+## DynamoDB
+* [DynamoDB CRUD](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.NodeJs.03.html)
+* [Reserved KeyWords in DynamoDB](https://docs.aws.amazon.com/de_de/amazondynamodb/latest/developerguide/ReservedWords.html)
+
+
+## Elastic Bean Stalk
+
+* [Deploying a High-Availability Drupal Website with an External Amazon RDS Database to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-hadrupal-tutorial.html#php-hadrupal-tutorial-deploy)
+* [Solution 1: Vanilla CI/CD Pipeline](https://docs.aws.amazon.com/aws-technical-content/latest/jenkins-on-aws/solution-1-vanilla-cicd-pipeline.html)
+
+# eof
