@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "My rsync backup script"
+date:   2019-03-05 16:30:17 +0200
+categories: wildfly cli commandsp 
+---
+# Whats this about
+To make (automated) deployments for reliable i wanted to remove old one before.
+Because WF is docker-powered 
+This lists some of the findings. Maybe it's helpfull to someone... 
+
+List deployments
+
+{% highlight bash %}
+#!/bin/sh 
+host=172.19.8.41
+port=9991
+controller="$host:$port"
+
+docker exec -it wildfly-debug ./jboss-cli.sh --connect --controller=$controller --commands="ls deployment" 
+
+{% endhighlight %}
+
