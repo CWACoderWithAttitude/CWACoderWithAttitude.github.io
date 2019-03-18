@@ -18,15 +18,15 @@ ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:2376
 ## List containers and their state
 
 {% highlight bash %}
-curl -s  http://vm-ruv:2376/v1.24/containers/json | jq -r '.[] | .Names[0] + " : " + .State '
-/ruv_jenkins_bastel : running
-/ruv_jenkins : running
+curl -s  http://vm-itzelbritzel:2376/v1.24/containers/json | jq -r '.[] | .Names[0] + " : " + .State '
+/itzelbritzel_jenkins_bastel : running
+/itzelbritzel_jenkins : running
 /sentry-worker : running
 /sentry-cron : running
 /sentry : running
 /sentry-postgres : running
 /sentry-redis : running
-/uumportainer_portainer_1 : running
+/portainer_portainer_1 : running
 /mailcatcher : running
 /wildflyOracle : running
 /wildflypreviewserver_wildfly_1 : running
