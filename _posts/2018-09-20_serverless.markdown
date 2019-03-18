@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Sererless computing"
+title:  "Serverless computing"
 date:   2018-00-20 10:20:17 +0200
-categories: serverless computing dynamodb kotlin openwhisk
+categories: links serverless
 ---
 ## Severlesss Links
 

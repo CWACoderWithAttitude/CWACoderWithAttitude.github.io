@@ -48,17 +48,33 @@ Even the docs are inconsistent.
 A few lines down the page there's a line stating this may be appropriate for content served internally.
 Content available to the all evil internet should be protected. That's interesting.
 
-Headless functions are available
 
+## How?
 
-## Access
+### Content Preparation
+
+Content has to be authored and designed for headless access.
+
+There're different concepts that are used to compose Headless feature:
+* [Fragments](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-feature-video-use.html)
+and
+* [Adobe Content Services / ACS](https://helpx.adobe.com/experience-manager/kt/sites/using/content-services-tutorial-use.html)
+
+ACS offers two template types to define [JSON structure exposing content](https://helpx.adobe.com/experience-manager/kt/sites/using/content-services-tutorial-use/part4.html):
+* FAQ Main API Template
+and
+* FAQ Listing API Template
+
+> Content for the Headless feature has to be derived from those two templates!
+
+A description on how to implement headless content can be found [here](https://helpx.adobe.com/experience-manager/kt/sites/using/content-services-tutorial-use/part5.html)
+
+### Access
 
 Accessing asset resources follows the REST paradigm. REST describes entities like pages, images teasers etc.
 Since this lacks the most interesting and important part: the relations between them a second paradigm - [siren](https://github.com/kevinswiber/siren) and [Google discussion group on Siren Hypermedia](https://groups.google.com/forum/#!forum/siren-hypermedia)- is applied.
 
 A good description of REST can be found [here](https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4)
-
-This was the first time i heard about siren.
 
 Siren is a bit like [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS).
 While HATEOAS is for xml siren describes the scenarios in json.
@@ -77,8 +93,10 @@ The documentation lists [cordova aka phonegap](https://cordova.apache.org/) inte
 
 ## Getting fingers dirty
 
-> The following examples make use of [JQ](https://github.com/stedolan/jq).
-> Jq like "grep" but for json. Check it out - it's really cool.
+Examples are based on the "We.retail" example content.
+
+> The following code examples make use of [JQ](https://github.com/stedolan/jq).
+> JQ is like "grep" but for JSON. Check it out - it's really cool.
 
 > Caveat: Most commands use the "-c" (comapct) option to save space.
 >   omit it to pretty print the output
@@ -139,8 +157,7 @@ http://127.0.0.1:4502/content/we-retail.html
 
 # Content inspection
 
-Now we know how to retrieve information. Lets use this knowledge.
-Lets assume we want to work with the demo site "we.retail":
+Now we know how to retrieve information. Let's use this knowledge.
 
 ```bash
 curl http://admin:admin@127.0.0.1:4502/api/content/sites.json | jq --raw-output -c '. | .entities[] | .links[]'
@@ -149,14 +166,11 @@ curl http://admin:admin@127.0.0.1:4502/api/content/sites.json | jq --raw-output 
 {"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail.html"}
 ```
 
-Thanks to Siren each listed entity has a link to itself and one to the corresponding content page.
-
-
 > I leave the language processing as an execise to you.
 > We skip forward to the content:
 
 ```bash
-curl http://admin:admin@127.0.0.1:4502/api/content/sites/we-retail/us/en.infinirty.json | jq -c --raw-output  '.'
+curl http://admin:admin@127.0.0.1:4502/api/content/sites/we-retail/us/en.infinity.json | jq -c --raw-output  '.'
 ...
 {"entities":[{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/user.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/user.html"}],"class":["content/page"],"properties":{"hideInNav":"true","dc:title":"User","name":"user"}},{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/experience.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/experience.html"}],"class":["content/page"],"properties":{"dc:title":"Experience","hideSubItemsInNav":true,"name":"experience"}},{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/men.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/men.html"}],"class":["content/page"],"properties":{"dc:title":"Men","name":"men"}},{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/women.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/women.html"}],"class":["content/page"],"properties":{"dc:title":"Women","name":"women"}},{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/equipment.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/equipment.html"}],"class":["content/page"],"properties":{"dc:title":"Equipment","name":"equipment"}},{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/about-us.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/about-us.html"}],"class":["content/page"],"properties":{"dc:title":"About Us","name":"about-us"}},{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/products.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/products.html"}],"class":["content/page"],"properties":{"dc:language":"en","dc:title":"Products","coverImage":"/content/dam/we-retail/en/products/Product_catalog.jpg","name":"products"}},{"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en/community.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en/community.html"}],"class":["content/page"],"properties":{"pageTitle":"community","etcpath":"/libs/settings/community/templates/functions/activitystream","dc:title":"community","name":"community","languageCopies":["en"],"scoringRules":["community/scoring/rules/weretail-scoring"],"formPayload":"/var/community/publish/content/we-retail/us/en/community","badgingRules":["community/badging/rules/weretail-badging"],"navTitle":"Community"}}],"links":[{"rel":["self"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us/en.json"},{"rel":["parent"],"href":"http://127.0.0.1:4502/api/content/sites/we-retail/us.json"},{"rel":["content"],"href":"http://127.0.0.1:4502/content/we-retail/us/en.infinity.json"}],"class":["content/page"],"properties":{"dc:language":"en_US","cq:commerceProvider":"we-retail","cq:lastRolledout":"2016-06-29T14:20:45.039+02:00","cq:cartPage":"/content/we-retail/us/en/user/cart","cq:contextHubPath":"/libs/settings/cloudsettings/legacy/contexthub","cq:lastRolledoutBy":"admin","cq:contextHubSegmentsPath":"/conf/we-retail/settings/wcm/segments","dc:title":"English","cq:lastModified":"2016-06-29T14:20:45.038+02:00","name":"en","cq:lastModifiedBy":"admin","navRoot":true,"cq:checkoutPage":"/content/we-retail/us/en/user/cart","cq:template":"/conf/we-retail/settings/wcm/templates/hero-page","srn:paging":{"total":8,"offset":0,"limit":20}}}
 ```

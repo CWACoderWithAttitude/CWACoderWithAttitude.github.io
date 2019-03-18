@@ -2,7 +2,7 @@
 layout: post
 title:  "Misc Links"
 date:   2018-00-20 10:20:17 +0200
-categories: serverless computing dynamodb kotlin openwhisk
+categories: links misc
 ---
 # Links for this and that
 List of Links i stumbled upon and considered worth remembering. At least for me :-)
