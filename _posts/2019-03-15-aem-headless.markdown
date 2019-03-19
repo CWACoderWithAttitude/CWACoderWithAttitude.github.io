@@ -14,7 +14,10 @@ After that i'd like to go a bit deeper into the technical details.
 
 ## What does headless mean?
 
-Headless means programatic access to the contaent stored in AEM. Resources like sites, pages etc. are represented by json-files which list their properties like title, publication date and so forth. Those json files contain links to other resources, too.
+Headless means programatic access to the content. Resources like sites, pages etc. are represented by json objects.
+Access follows the REST paradigm by denoting entities with paths and specifying actions using HTTP verbs like GET, POST, DELETE...
+
+Each entity can have multiple relations. Those relations
 
 ## Where do we come from
 
@@ -90,6 +93,15 @@ This also mentions cordova integration.
 [AEM screens](https://helpx.adobe.com/experience-manager/6-4/screens/user-guide.html) seems to be AEMs Gateway to 3rd party applications.
 
 The documentation lists [cordova aka phonegap](https://cordova.apache.org/) integration among others.
+
+### Getting stated links
+* [Getting Started with Core Components and the Style System](https://helpx.adobe.com/experience-manager/kt/sites/using/style-system-core-components-tutorial-develop.html)
+* [AEM Fluid Experiences for headless usecases](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-headless-usecases.html)
+* [AEM as a Headless CMS](http://aempodcast.com/2017/aem-resources/aem-headless-cms/#.XJDnexNKiL8)
+* [Experience-Cloud: Headless CMS
+](https://www.adobe.com/de/experience-cloud/topics/headless-cms.html)
+* []()
+
 
 ## Getting fingers dirty
 

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "ESP-Eye"
+date:   2019-03-19 09:20:27 +0100
+categories: esp32 facerecognition
+---
+
+# Unsorted List of Links on ESP-Eye
+
+
+* [Buy one in Germany](https://www.mouser.de/ProductDetail/Espressif-Systems/ESP-EYE?qs=%2Fha2pyFadujswH4LzMQeev06BnO64zRMg6GpEjGri4s=)
+* [ESP-EYE Getting Started Guide](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP-EYE_Getting_Started_Guide.md)
+* [The Mysterious ESP-EYE Development Board from Espressif?](https://blog.hackster.io/the-mysterious-esp-eye-development-board-from-espressif-2d5b4ffd2b9)
+* [Espressif: ESP-EYE](https://www.espressif.com/en/products/hardware/esp-eye/overview)
