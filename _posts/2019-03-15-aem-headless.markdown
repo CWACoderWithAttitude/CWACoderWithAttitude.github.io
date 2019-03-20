@@ -17,7 +17,16 @@ After that i'd like to go a bit deeper into the technical details.
 Headless means programatic access to the content. Resources like sites, pages etc. are represented by json objects.
 Access follows the REST paradigm by denoting entities with paths and specifying actions using HTTP verbs like GET, POST, DELETE...
 
-Each entity can have multiple relations. Those relations
+Each entity can have multiple relations. Those relations are reflected by listing links to other resources with the content
+
+## What does Adobe say?
+
+On [Content as a Service
+](https://www.adobe.com/marketing/experience-manager-sites/content-as-a-service.html) they describe it
+
+Adobe lists [Content as a Service
+](https://www.adobe.com/marketing/experience-manager-sites/content-as-a-service.html) as part of their [Experience Manager Sites](https://www.adobe.com/marketing/experience-manager-sites.html)
+
 
 ## Where do we come from
 
@@ -35,6 +44,8 @@ The publishers sole purpose is serving content.
 
 
 ## Whats different with headless?
+
+
 
 > In production scenarios, AEM Content Services should serve content from AEM Publish, and from directly from AEM Author.
 [Adobe Content Services](https://helpx.adobe.com/experience-manager/kt/sites/using/content-services-tutorial-use/part6.html)
