@@ -3,12 +3,17 @@ layout: post
 title:  "ESP-Eye"
 date:   2019-03-19 09:20:27 +0100
 categories: esp32 facerecognition
+
 ---
 
-# Unsorted List of Links on ESP-Eye
+# Unsorted List of Links on ESP-Eye (and similar devices)
 
 
 * [Buy one in Germany](https://www.mouser.de/ProductDetail/Espressif-Systems/ESP-EYE?qs=%2Fha2pyFadujswH4LzMQeev06BnO64zRMg6GpEjGri4s=)
 * [ESP-EYE Getting Started Guide](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP-EYE_Getting_Started_Guide.md)
 * [The Mysterious ESP-EYE Development Board from Espressif?](https://blog.hackster.io/the-mysterious-esp-eye-development-board-from-espressif-2d5b4ffd2b9)
 * [Espressif: ESP-EYE](https://www.espressif.com/en/products/hardware/esp-eye/overview)
+
+* [ESP32: M5 Camera Module](https://blog.squix.org/2018/11/esp32-m5-camera-module.html)
+* [M5Stack ESP32 Kamera mit OV2640 (2.0 MP)](https://www.voelkner.de/products/1317521/M5Stack-ESP32-Kamera-mitOV2640-2.0-MP-.html)
+* [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://www.youtube.com/watch?v=MicAM_A0_lU)

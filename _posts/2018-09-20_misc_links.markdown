@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Misc Links"
-date:   2018-00-20 10:20:17 +0200
+date:   2018-10-20 10:20:17 +0200
 categories: links misc
 ---
 # Links for this and that
@@ -186,4 +186,13 @@ rsync --partial --progress --rsh=ssh ~/.../humongous_file.tgz <target-machine>:<
 ## Linux / ubuntu
 * [Change apt mirror](https://askubuntu.com/questions/37753/how-can-i-get-apt-to-use-a-mirror-close-to-me-or-choose-a-faster-mirror)
 
+# Jekyll
+* [Easy Bootstrap 3 Collapse panels in Jekyll
+](https://kylekirkby.github.io/blog/jekyll/easy-bootstrap3-collapses-in-jekyll/)
+* [Jekyll Markdown Quick Reference](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
+
+* [HTML-Tidy](http://www.html-tidy.org/)
+* [HTML Tidy Configuration Options](http://tidy.sourceforge.net/docs/quickref.html#hide-comments)
+* [iCalendar](http://fileformats.archiveteam.org/wiki/ICalendar)
+* []()
 # eof
