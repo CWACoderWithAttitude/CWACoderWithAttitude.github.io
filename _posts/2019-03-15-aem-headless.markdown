@@ -7,8 +7,8 @@ categories: aem headless rest hateoas siren
 # AEM Headless CMS - Draft
 
 I'm currently investigating Adobe AEMs headless features.
-At first i'd like to give a short overview of where we come from, where we're going to.
-And the difference.
+
+At first i'd like to give a short overview what this will be about.
 
 After that i'd like to go a bit deeper into the technical details.
 
@@ -19,19 +19,28 @@ Access follows the REST paradigm by denoting entities with paths and specifying 
 
 ## How about Apache Sling?
 
-AEM contains [Apache Sling](https://sling.apache.org/). Sling provides [RESTful access](https://cwiki.apache.org/confluence/display/SLING/FAQ#FAQ-RESTfulAPI).
+AEM contains [Apache Sling](https://sling.apache.org/).
 
+Sling provides [RESTful access](https://cwiki.apache.org/confluence/display/SLING/FAQ#FAQ-RESTfulAPI) to content stored in AEM.
 
 ![Sling Request Processing
 ](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-3/sites/developing/using/the-basics/_jcr_content/main-pars/image_1/chlimage_1.png)
 
-Similarities are quite obvious - so are the differences.
+AT first it seems Sling is all you need. But as always - the devil is in the details.
 
-In Sling you would specify the desired output format using the extension. (`.html`, `.json`,..) you get the point.
+Similarities of Sling and REST are quite obvious - so are the differences.
 
-So, the URL is a bit misused.
+For example in Sling you would specify the resource and the desired output format using the extension. (`.html`, `.json`,..) you get the point:
+```
+http://127.0.0.1:4502/editor.html/content/we-retail/de/de.html
+http://127.0.0.1:4502/editor.html/content/we-retail/de/de.json
+```
+
+Both addresses point the exact see location - but with a different representation.
 
 In HTTP the URL just denotes the exact location of the resource. The preferred format is requested by sending appropriate headers with the request.
+
+So, the URL is a bit misused.
 
 An in-depth comparison is not in the scope of this document. The links above will point you to further and much more detailed information.
 

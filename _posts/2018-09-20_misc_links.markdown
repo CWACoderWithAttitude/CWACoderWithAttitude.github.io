@@ -7,6 +7,9 @@ categories: links misc
 # Links for this and that
 List of Links i stumbled upon and considered worth remembering. At least for me :-)
 Descriptions maybe faulty...
+mdx-presentations - remark.js + react 
+
+* [Sevrverless w Kotlin](https://medium.com/tech-travelstart/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4)
 
 ## Oracle
 * [Oracle DB Security ](https://docs.oracle.com/cd/B19306_01/network.102/b14266/checklis.htm#i1007892)
@@ -194,5 +197,9 @@ rsync --partial --progress --rsh=ssh ~/.../humongous_file.tgz <target-machine>:<
 * [HTML-Tidy](http://www.html-tidy.org/)
 * [HTML Tidy Configuration Options](http://tidy.sourceforge.net/docs/quickref.html#hide-comments)
 * [iCalendar](http://fileformats.archiveteam.org/wiki/ICalendar)
-* []()
+* [
+CMS
+Content Management Systems of the Future: Headless, JAMstack, ADN and Functions at the Edge](https://www.abhishek-tiwari.com/cms-of-the-future-headless-jamstack-adn-and-functions-at-the-edge/)
+* [Debugging SSL/TLS Connections](https://docs.oracle.com/javase/7/docs/technotes/guides/security/jsse/ReadDebug.html)
+
 # eof

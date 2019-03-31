@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Maven"
+date:   2019-03-31 11:20:17 +0200
+categories: maven project
+---
+I had to list all projects in a multi module maven setup and list their respective parent projects.
+The problem:
+```bash
+reactor
+ |
+ +--project1
+ |   |
+ |   +---subprojet1.1
+ |   +---subprojet1.2
+ |   ...
+ |
+ +--project2
+ |   |
+ |   +---subprojet2.1
+ |   +---subprojet2.2
+           |
+           +--subsubproject2.2.1
+           |   |
+           |   +---subsubsubprojet2.2.1.1
+           |   +---subsubsubprojet2.2.1.2
+           |   ...  
+           |   ...
+```
+Something like that.
+
+Parent of `subsubsubprojet2.2.1.1` was set to `subsubproject2.2.1`. And parent of `subsubproject2.2.1`was set to `subprojet2.2`.
+The version-numbers are a mess. So some light had to be shed.
+
+I wanted a cli tool for easy techie acceptance. And excel compatibility for managers.
+
+My approach uses `find` and [`yq`](https://formulae.brew.sh/formula/python-yq):
+
+```bash
+echo "Project;Parent GroupId; Parent artifactId;Parent Version"
+
+find . -name pom.xml -exec xq -r '.project.artifactId + " ; " + .project.parent.groupId + " ; " + .project.parent.artifactId + " ; " + .project.parent.version'  {} \;
+```
+
+The result:
+
+```
+Project;Parent GroupId; Parent artifactId;Parent Version
+projectX-core ; de.customer.acme.projectX ; projectX ; 1.0.0
+projectX-login ; de.customer.acme.projectX ; projectX ; 1.0.0
+projectX ; de.customer.acme ; acme-reactor ; 1.0.0
+projectX-apps ; de.customer.acme.projectX ; projectX ; 1.0.0
+net ; de.customer.acme ; acme-reactor ; 1.0-rc-SNAPSHOT
+net-libs ; de.customer.acme.net ; net ; 1.0-rc-SNAPSHOT
+net-apps ; de.customer.acme.net ; net ; 1.0-rc-SNAPSHOT
+acme-reactor ;  ;  ;
+cust-secondary-bins ; de.customer.acme.hyper.bcd ; hyper-bcd ; 1.0.0
+hyper-bcd ; de.customer.acme ; acme-reactor ; 1.0.0
+...
+```
+
+In case your project is a bit bigger like mine is this can be useful.
