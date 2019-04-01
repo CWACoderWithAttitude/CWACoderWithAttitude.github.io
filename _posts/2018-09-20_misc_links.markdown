@@ -7,7 +7,7 @@ categories: links misc
 # Links for this and that
 List of Links i stumbled upon and considered worth remembering. At least for me :-)
 Descriptions maybe faulty...
-mdx-presentations - remark.js + react 
+mdx-presentations - remark.js + react
 
 * [Sevrverless w Kotlin](https://medium.com/tech-travelstart/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4)
 
@@ -202,4 +202,5 @@ CMS
 Content Management Systems of the Future: Headless, JAMstack, ADN and Functions at the Edge](https://www.abhishek-tiwari.com/cms-of-the-future-headless-jamstack-adn-and-functions-at-the-edge/)
 * [Debugging SSL/TLS Connections](https://docs.oracle.com/javase/7/docs/technotes/guides/security/jsse/ReadDebug.html)
 
+* [5 Useful Features of C# .NET Core Lambda function](https://medium.com/devtechblogs/https-medium-com-lior-k-sh-five-features-csharp-dotnet-core-aws-lambda-function-9b2d1a3d681b)
 # eof
