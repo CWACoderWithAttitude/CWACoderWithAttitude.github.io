@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "C#"
+date:   2019-04-01 10:20:17 +0200
+categories: csharp
+---
+# New Project - new Stuff to learn
+
+I'll collect interesting links on C# on this page.
+
+* [C#-Programmierhandbuch](https://docs.microsoft.com/de-de/dotnet/csharp/programming-guide/index)
+* [Einführung in C#](https://docs.microsoft.com/de-de/dotnet/csharp/tutorials/intro-to-csharp/index)
+* [Einfacher WebService mit von Visual C# .NET](https://support.microsoft.com/de-de/help/308359/how-to-write-a-simple-web-service-by-using-visual-c-net)
+* [Datensammlungen mithilfe des generischen Listentyps](https://docs.microsoft.com/de-de/dotnet/csharp/tutorials/intro-to-csharp/list-collection)
+* [.NET Tutorial - Hello World in 10 minutes](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/create)
+* [HttpRequest.Params Property](https://docs.microsoft.com/de-de/dotnet/api/system.web.httprequest.params?view=netframework-4.7.2)
+* [various problem solutions in c#](https://www.sanfoundry.com/csharp-programs-generate-factors/)
+* [5 Useful Features of C# .NET Core Lambda function](https://medium.com/devtechblogs/https-medium-com-lior-k-sh-five-features-csharp-dotnet-core-aws-lambda-function-9b2d1a3d681b)
+# eof
