@@ -6,10 +6,10 @@ layout: home
 ---
 Hi,
 
-these pages serve as scratchpad on steroids. Most pages just contain links i don't want to loose.
+these pages serve as scratchpad on steroids. Most pages just contain links i don't want to loose.<br>
+Or they contain code snippets - maybe i should move them to github ghists...<br>
 
-Or they contain code snippets - maybe i should move them to github ghists...
-
-Ideas, opinions, mistakes and errors are mine. They do not necessarily reflect my employers ideas. My employer [Unterschied &amp; Macher](https://www.unterschiedundmacher.rocks/adobe-experience-manager/aem-team-upgrade) - gives home to a bunch of most exceptional colleagues.
+However: Ideas, opinions, mistakes and errors are mine. Stuff shown here does not necessarily reflect my employers ideas.<br>
+[Unterschied &amp; Macher](https://www.unterschiedundmacher.rocks/adobe-experience-manager/aem-team-upgrade) gives home to a bunch of most exceptional colleagues. Browse to our website and get yourself an idea.
 
 They foster new ideas. They encourage me (and maybe you) to go beyond your limits!
