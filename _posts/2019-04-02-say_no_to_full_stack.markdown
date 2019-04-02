@@ -7,8 +7,8 @@ tags: [collaboration, backend, frontend, architect]
 ---
 I'm a bit confused why so many people claim they want Full Stack Developers.
 
-During the time of my professional career i've seen some companies or teams or individuals trying to be "Full Stack".
-Lets put it like that: The results were not what you'd expect to see.
+During the time of my professional career i've seen some companies or teams or individuals trying to be "Full Stack".  
+Lets put it like that: The results were not what you'd expect to see.   
 Nor what the customer wants
 
 * What about the discussion about cross-functional teams?
