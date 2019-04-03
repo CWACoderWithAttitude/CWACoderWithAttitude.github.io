@@ -23,6 +23,6 @@ I'll collect interesting links on C# on this page.
 * [5 Useful Features of C# .NET Core Lambda function](https://medium.com/devtechblogs/https-medium-com-lior-k-sh-five-features-csharp-dotnet-core-aws-lambda-function-9b2d1a3d681b)
 
 ## AWS
-
+* [AWS Toolkit for Visual Studio](https://docs.aws.amazon.com/de_de/lambda/latest/dg/lambda-dotnet-create-deployment-package-toolkit.html)
 * [Erstellen von Lambda-Funktionen mit C#](https://docs.aws.amazon.com/de_de/lambda/latest/dg/dotnet-programming-model.html)
 # eof

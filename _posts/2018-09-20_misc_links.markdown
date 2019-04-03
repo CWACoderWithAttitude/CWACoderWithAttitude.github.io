@@ -193,6 +193,7 @@ rsync --partial --progress --rsh=ssh ~/.../humongous_file.tgz <target-machine>:<
 * [Easy Bootstrap 3 Collapse panels in Jekyll
 ](https://kylekirkby.github.io/blog/jekyll/easy-bootstrap3-collapses-in-jekyll/)
 * [Jekyll Markdown Quick Reference](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
+* [Awesome Jeykll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins)
 
 * [HTML-Tidy](http://www.html-tidy.org/)
 * [HTML Tidy Configuration Options](http://tidy.sourceforge.net/docs/quickref.html#hide-comments)
