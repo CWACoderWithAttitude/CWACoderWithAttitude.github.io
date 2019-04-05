@@ -41,6 +41,8 @@ List is uncurated
 * [Building your First Serverless App in Node.js with AWS Lambda + S3 + API Gateway](https://medium.com/the-node-js-collection/building-your-first-serverless-app-in-node-js-with-aws-lambda-s3-api-gateway-4d87e808d9cc)
 * [Tutorial: Verwenden von AWS Lambda mit Amazon S3](https://docs.aws.amazon.com/de_de/lambda/latest/dg/with-s3-example.html)
 * [AWS Lambda function write to S3](https://stackoverflow.com/questions/40188287/aws-lambda-function-write-to-s3)
+* [AWS | Fetch File And Store In S3](https://serverless.com/examples/aws-node-fetch-file-and-store-in-s3/)
+
 # ec2 docker registry
 * [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
 * [Install Let's Encrypt to Create SSL Certificates](https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/)
