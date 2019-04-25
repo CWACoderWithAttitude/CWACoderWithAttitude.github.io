@@ -9,6 +9,8 @@ List of Links i stumbled upon and considered worth remembering. At least for me 
 Descriptions maybe faulty...
 mdx-presentations - remark.js + react
 
+# os x
+[iTerm2 - Python API: JSOn Prettify](https://iterm2.com/python-api/examples/jsonpretty.html#jsonpretty-example)
 * [Sevrverless w Kotlin](https://medium.com/tech-travelstart/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4)
 
 ## Oracle
@@ -74,6 +76,8 @@ mdx-presentations - remark.js + react
 * Dan North: Microservices that fit in your headline
 * [Hosting jekyll pages on S3](https://8thlight.com/blog/sarah-sunday/2018/02/14/making-a-static-website-with-jekyll-and-s3.html)
 * [Jekyll & Github Pages](https://x-team.com/blog/build-a-free-website-with-jekyll-and-github-pages/)
+* [Google Analytics & Github Pages](https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages)
+* [Google Analytics for Jekyll](https://desiredpersona.com/google-analytics-jekyll/)
 * [Phd-Thesis, Buzz Aldrin](http://hdl.handle.net/1721.1/12652)
 * [ECSS For Deveopers](http://ecss.nl/standards/ecss-documents-for-developers/)
 

@@ -52,7 +52,8 @@ List is uncurated
 * [DynamoDB CRUD](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.NodeJs.03.html)
 * [Reserved KeyWords in DynamoDB](https://docs.aws.amazon.com/de_de/amazondynamodb/latest/developerguide/ReservedWords.html)
 
-
+## AWS Greengras
+* [AWS Greengras, for ubuntu](https://snapcraft.io/aws-iot-greengrass)
 ## Elastic Bean Stalk
 
 * [Deploying a High-Availability Drupal Website with an External Amazon RDS Database to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-hadrupal-tutorial.html#php-hadrupal-tutorial-deploy)

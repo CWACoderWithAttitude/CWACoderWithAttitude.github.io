@@ -12,11 +12,11 @@ Lets put it like that: The results were not what you'd expect to see.
 Nor what the customer wants
 
 * What about the discussion about cross-functional teams?
-* Why do we employ Information Architects? Forget about them - fire the all. The full stack dev will do the job!
+* Why do we employ Information Architects? Forget about them - fire them all. The full stack dev will do the job!
 * Backend business logic? The frontend guy knows JavaScript. We should just fire up a node express instance and we're fine.
 * Data modelling? Hey, there's always an ORM mapper at hand.
 Just create some POJOs, add some some annotation fairy dust - we're set.
-* Concepters? We're brilliant - we just KNOW what the customer needs. We dont need thoose meta-guys.
+* Concepters? We're brilliant - we just KNOW what the customer needs. We don't need those meta-guys.
 
 Ok, lets put the humor aside and get serious. Otherwise we'd burn precious money.  
 Of course the bullet points have some dramatic sugar.  
