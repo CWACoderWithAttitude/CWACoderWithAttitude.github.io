@@ -7,6 +7,13 @@ categories: bash cmds
 
 # Misc. Bash Commands
 
+## Viewing Markdown files
+
+View markdown files while using SSH was tricky for me.
+Until i found this on StackOverflow:`pandoc <MARKDOWN FILE> | lynx -stdin`.  
+
+For Example: `pandoc README.md | lynx -stdin`
+
 ## tar
 
 Extract just a file or folder from tar archive

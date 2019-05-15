@@ -2,6 +2,7 @@
 
 ### Markdown
 
+[How to write posts](https://jekyllrb.com/docs/posts/)
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown

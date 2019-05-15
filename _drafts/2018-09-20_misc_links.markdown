@@ -9,33 +9,6 @@ List of Links i stumbled upon and considered worth remembering. At least for me 
 Descriptions maybe faulty...
 mdx-presentations - remark.js + react
 
-## rest http mocking
-[different types of endpoints, free](https://jsonplaceholder.typicode.com/)
-https://my-json-server.typicode.com/
-https://www.baeldung.com/mockserver
-[Commercial Mock SaaS, Free Tier available](https://www.mockable.io/)
-[OSS Mock Server, sourcecode on github](https://www.mocky.io/)
-https://beeceptor.com/
-[Programmable HTTP ReST Mock Server](https://medium.com/billie-finanzratgeber/mock-server-save-time-and-money-during-development-and-testing-bf1d74364d84)
-https://github.com/typicode/json-server
-
-
-## misc
-
-* [Grunt watcher](https://mijingo.com/blog/watching-your-grunt-files-for-changes)
-* [Develop CLI aps with sprng shell](https://medium.com/agency04/developing-cli-application-with-spring-shell-part-1-807cd3a32461)
-* [Blockchain job db](https://www.btc-echo.de/jobs/job/software-entwickler-w-m-d-fuer-blockchain-team-in-gruendung/)
-* [Markdeep](https://casual-effects.com/markdeep/)
-# Jimdo
-* [Jimdo einstieg](https://dietersfotos.jimdo.com/jimdo-einstieg/)
-* [Wie füge ich eigenen Code ein?  – Jimdo Creator](https://help.jimdo.com/hc/de/articles/115005505763-Wie-f%C3%BCge-ich-eigenen-Code-ein-)
-* [Wie füge ich Widgets ein? – Jimdo Creator](https://help.jimdo.com/hc/de/articles/115005947286)
-
-
-# ikea traedfri
-[ikea tradrfi, anatomy](https://ifreaky.net/ikea-tradfri-hacking-zigbee-funzel-aufbohren/)
-# os x
-[iTerm2 - Python API: JSOn Prettify](https://iterm2.com/python-api/examples/jsonpretty.html#jsonpretty-example)
 * [Sevrverless w Kotlin](https://medium.com/tech-travelstart/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4)
 
 ## Oracle
@@ -101,8 +74,6 @@ https://github.com/typicode/json-server
 * Dan North: Microservices that fit in your headline
 * [Hosting jekyll pages on S3](https://8thlight.com/blog/sarah-sunday/2018/02/14/making-a-static-website-with-jekyll-and-s3.html)
 * [Jekyll & Github Pages](https://x-team.com/blog/build-a-free-website-with-jekyll-and-github-pages/)
-* [Google Analytics & Github Pages](https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages)
-* [Google Analytics for Jekyll](https://desiredpersona.com/google-analytics-jekyll/)
 * [Phd-Thesis, Buzz Aldrin](http://hdl.handle.net/1721.1/12652)
 * [ECSS For Deveopers](http://ecss.nl/standards/ecss-documents-for-developers/)
 
