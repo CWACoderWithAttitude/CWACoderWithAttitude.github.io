@@ -4,6 +4,7 @@ title:  "Say No! to Full Stack"
 date:   2019-04-02 23:11:17 +0200
 categories: [developer, fullstack]
 tags: [collaboration, backend, frontend, architect]
+permalink: /say_no_to_fullstack/
 ---
 I'm a bit confused why so many people claim they want Full Stack Developers.
 
