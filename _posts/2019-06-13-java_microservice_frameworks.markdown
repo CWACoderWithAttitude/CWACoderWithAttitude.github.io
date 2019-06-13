@@ -47,8 +47,8 @@ The following list is far from complete (i'd guess). Order of items is just by c
 
 ## Reading list
 
-* [Developing Microservices with Java | LeanIX](https://blog.leanix.net/en/developing-microservices-with-java)
-* [Top 8 Java RESTful Micro Frameworks – Pros/Cons | Gajotres.net](https://www.gajotres.net/best-available-java-restful-micro-frameworks/)
+* [Developing Microservices with Java \| LeanIX](https://blog.leanix.net/en/developing-microservices-with-java)
+* [Top 8 Java RESTful Micro Frameworks – Pros/Cons \| Gajotres.net](https://www.gajotres.net/best-available-java-restful-micro-frameworks/)
 * [Grundkurs Microservices: Warum Frameworks nicht genug sind!](https://jax.de/blog/microservices/warum-frameworks-nicht-genug-sind/)
 * [Quora: What is the best micro-service framework for the Java platform](https://www.quora.com/What-is-the-best-micro-service-framework-for-the-Java-platform)
 
