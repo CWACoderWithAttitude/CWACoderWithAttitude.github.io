@@ -6,14 +6,14 @@ categories: blockchain
 ---
 # Terms you encounter in the Blockchain World
 
-When i started playing with bloclchain the first hurdle was managing all the terms related to blockchain, bitcoin, dlt...
+When i started playing with blockchain technology the first hurdle was managing all the terms related to blockchain, bitcoin, dlt...
 
-The descriptions are my own. Most of them are linked to wikipedia for more detailed information.
+I've tried to describe the terms with my own words. But most of them are linked to wikipedia for more detailed information.
 
-|Term|My Description|
+|Term|Description|
 |---|---|
 |Block|[Block (blockchain)](https://en.wikipedia.org/wiki/Block_(blockchain)): Single unit of information stored in a BlockChain. Consists of two parts: metadata and payload (e.g. transactions)|
-|BlockChain| [BlockChain](https://de.wikipedia.org/wiki/Blockchain): List of Blocks. Each block is connected to its predecessor by its hash value. It is copied to each _Node_ perticipating in this _BlockChain_.  |
+|BlockChain| [BlockChain](https://de.wikipedia.org/wiki/Blockchain): List of Blocks. Each block is connected to its predecessor by its hash value. It is copied to each _Node_ participating in this _BlockChain_.  |
 |Node|Computer in a _BlockChain_. Each node has a full copy of the _BlockChain_ and each node _validates_ every _Block_ in it's copy|
 |Hash| Unique value build from a blocks metadata and payload. Calculated by using [Cryptographic hash functions ](https://en.wikipedia.org/wiki/Cryptographic_hash_function) |
 |Nonce| [Crypto Nonce](https://en.wikipedia.org/wiki/Cryptographic_nonce#Hashing): Property of _Block_ metadata. Used to alter the blocks _Hash_ value until it meets the _BockChains_ constraints |
