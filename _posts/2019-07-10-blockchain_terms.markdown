@@ -21,7 +21,7 @@ I've tried to describe the terms with my own words. But most of them are linked 
 |Consensus|All (full) Nodes in a Blochain have to have to the same same outcome of applied validatin rules. Refer to _mining_ section for the _BitCoin_ rules|
 |Mining| Finding a hash value for a certain block which meets the contraints of the blockchain. [BitCoin consens rules](https://bitcoin.org/en/blockchain-guide#transaction-data) are shown for the most popular example. Refer to [this to see how BitCoin mining is performed](https://en.wikipedia.org/wiki/Bitcoin_network#Process)|
 |DLT|[DLT](https://de.wikipedia.org/wiki/Distributed-Ledger-Technologie): Distributed Ledger Technology. Acronym for blockchains. |
-|Smart Contract|[Smart Contract](https://en.wikipedia.org/wiki/Smart_contract): Piece of code stored in a block. The code is executed automatically whenever the conditions are met|
+|Smart Contract|[Smart Contract](https://en.wikipedia.org/wiki/Smart_contract): Piece of code stored in a block. The code is executed automatically whenever the conditions are met. [How do Smart Contracts work?](https://www.bitdegree.org/tutorials/what-is-a-smart-contract/)|
 |Chain Code|same as _Smart Contract_|
 |BitCoin|[BitCoin](https://de.wikipedia.org/wiki/Bitcoin) is two things 1. The first blockchain. Started on Jan, 3. 2009 By Satoshi Nakamoto. 2. (Crypto-)Currency|
 |Crypto Currency|Digital medium of exchange that incorporates strong cryptography [Wikipedia: Crypto Currency](https://en.wikipedia.org/wiki/Cryptocurrency)|
