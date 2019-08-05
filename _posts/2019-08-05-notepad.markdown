@@ -7,6 +7,9 @@ tags: [links, lego, mindstorms, ev3, scratch]
 permalink: /notepad
 ---
 
+## Links on Lighthouse
+* [puppeteer getting started](https://developers.google.com/web/tools/puppeteer/get-started)
+
 ## Links on JMeter
 
 I'm currently doing some research integrating JMeter with one of our projects.
