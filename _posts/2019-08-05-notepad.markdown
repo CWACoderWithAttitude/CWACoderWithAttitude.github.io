@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Notepad"
+date:   2019-08-05 09:11:17 +0200
+categories: [hacking]
+tags: [links, lego, mindstorms, ev3, scratch]
+permalink: /notepad
+---
+
+## Links on JMeter
+
+I'm currently doing some research integrating JMeter with one of our projects.
+
+* [How to write groovy Script in Jmeter](https://stackoverflow.com/questions/54528329/how-to-write-groovy-script-in-jmeter)
+* [BlazeMeter;The Groovy Templates Cheat Sheet for JMeter](https://www.blazemeter.com/blog/the-groovy-templates-cheat-sheet-for-jmeter/)
+
+## Links on TeX
+
+After leaving TeX for some time i have to update m brain from these pages:
+
+* [Beamer User Guide](http://mirror.physik-pool.tu-berlin.de/pub/CTAN/macros/latex/contrib/beamer/doc/beameruserguide.pdf)
+

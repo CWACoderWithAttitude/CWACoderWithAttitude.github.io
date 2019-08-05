@@ -4,6 +4,7 @@ title:  "Java Micro-Service Frameworks"
 date:   2019-06-13 09:30:17 +0200
 categories: [java, microservice, frameworks]
 tags: [java, microservices, cloud, frameworks]
+permalink: /microservices
 ---
 # List of microservice framworks for java
 
@@ -12,6 +13,8 @@ The following list is far from complete (i'd guess). Order of items is just by c
 
 ## Frameworks
 
+* [Quarkus](https://quarkus.io)
+> Quarkus builds microservices based on well known intefaces. Features Java, Kotlin and hot code deloyment. Good Documentation. [Quarkus Guides](https://quarkus.io/guides)
 * [Javalin](https://javalin.io/documentation#getting-started)
 > A simple and easy to learn web framework for Java and Kotlin
 * [JHipster](https://www.jhipster.io)
