@@ -6,6 +6,8 @@ categories: [hacking]
 tags: [links, lego, mindstorms, ev3, scratch]
 permalink: /notepad
 ---
+# Collection of links on various topics.
+* [Learn Go w Tests](https://quii.gitbook.io/learn-go-with-tests/)
 
 ## Links on Lighthouse
 * [puppeteer getting started](https://developers.google.com/web/tools/puppeteer/get-started)
