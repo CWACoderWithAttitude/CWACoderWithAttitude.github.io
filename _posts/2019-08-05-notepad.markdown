@@ -7,6 +7,24 @@ tags: [links, lego, mindstorms, ev3, scratch]
 permalink: /notepad
 ---
 # Collection of links on various topics.
+
+## tmux
+
+|Cmd|Purpose|
+|---|---|
+|tmux new (ctrl+b, c)|start new session|
+|tmux new -s [sesssion name]|start new named session|
+|ctrl + b|default tmux prefix for commands|
+|crtl + b, d|detach current sesion|
+|crtl + b, 0 |attach to first sesion|
+|tmux attach -t [session name]|Attach (reconnect) to a session started preiously; use indexes to attach to anonymous sessions|
+|tmux ls|list sessions|
+|ctrl + b, "|split pane horizontally|
+|ctrl + b, %|split pane vertically|
+
+
+
+
 * [Learn Go w Tests](https://quii.gitbook.io/learn-go-with-tests/)
 
 ## Links on Lighthouse
