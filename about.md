@@ -3,6 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
+
+Disclaimer:
+Ideas and opinions on these pages are my own.    
+
 Linus Torvalds:
 > Talk is cheap - show me the code
 

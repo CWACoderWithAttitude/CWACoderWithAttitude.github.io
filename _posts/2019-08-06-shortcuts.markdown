@@ -8,11 +8,18 @@ permalink: /shortcuts
 ---
 # Collection of keyboard shortcuts i consider handy
 
-Although i think those shortcuts are important to know my brain tends to bury this knowledge.
+Although i consider those shortcuts are important to know my brain tends to bury this knowledge.
+
+## Chrome
+
+|Shortcut|Purpose|
+|--|---|
+|alt + cmd + arrow left|Switch to next tab on the left|
+|alt + cmd + arrow right|Switch to next tab on the right|
 
 ## SSH
 
-When my ssh session hangs due to lost conection the whole terminal is unusable.
+When my ssh session hangs due to lost conection the whole terminal is unusable.   
 Try typing `ENTER + ~ + .` to kill the ssh session (or whatever blocks te terminal)
 
 ## OS X 
@@ -23,3 +30,10 @@ Try typing `ENTER + ~ + .` to kill the ssh session (or whatever blocks te termin
 |Ctrl + Arrow left| Switch to the left screen| 
 |Ctrl + Arrow right| Switch to the right screen| 
 |Ctrl + Arrow down| Show all windows of the focused application| <-- very handy| 
+
+## iTerm2
+
+|Shortcut|Purpose|
+|---|---|
+|Cmd + Arrow left|Move to left terminal|
+|Cmd + Arrow right|Move to richt terminal|

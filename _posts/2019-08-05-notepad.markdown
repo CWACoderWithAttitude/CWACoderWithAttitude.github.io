@@ -23,14 +23,16 @@ permalink: /notepad
 |ctrl + b, %|split pane vertically|
 
 
-
+## Go
 
 * [Learn Go w Tests](https://quii.gitbook.io/learn-go-with-tests/)
 
-## Links on Lighthouse
+## Web Performance testing
+
+### Links on Lighthouse
 * [puppeteer getting started](https://developers.google.com/web/tools/puppeteer/get-started)
 
-## Links on JMeter
+### Links on JMeter
 
 I'm currently doing some research integrating JMeter with one of our projects.
 
@@ -39,9 +41,17 @@ I'm currently doing some research integrating JMeter with one of our projects.
 * [Best way to find the correct load time of a webpage with Jmeter
 ](https://stackoverflow.com/questions/44436567/best-way-to-find-the-correct-load-time-of-a-webpage-with-jmeter)
 * [How to make JMeter behave more like a real browser](https://guide.blazemeter.com/hc/en-us/articles/206733719-How-to-make-JMeter-behave-more-like-a-real-browser)
+
 ## Links on TeX
 
 After leaving TeX for some time i have to update m brain from these pages:
 
 * [Beamer User Guide](http://mirror.physik-pool.tu-berlin.de/pub/CTAN/macros/latex/contrib/beamer/doc/beameruserguide.pdf)
+
+## Spiegel
+
+* [Zuckerersatzstoffe: Die süße Täuschung](https://www.spiegel.de/video/stevia-aspertam-statt-zucker-wie-gesund-sind-suessstoffe-video-99028857.html)
+* [Sibirien: Video zeigt heftige Explosion in Militärbasis](https://www.spiegel.de/video/sibirien-schwere-explosion-in-russland-video-99028877.html)
+
+
 
