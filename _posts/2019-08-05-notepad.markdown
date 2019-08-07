@@ -18,7 +18,9 @@ I'm currently doing some research integrating JMeter with one of our projects.
 
 * [How to write groovy Script in Jmeter](https://stackoverflow.com/questions/54528329/how-to-write-groovy-script-in-jmeter)
 * [BlazeMeter;The Groovy Templates Cheat Sheet for JMeter](https://www.blazemeter.com/blog/the-groovy-templates-cheat-sheet-for-jmeter/)
-
+* [Best way to find the correct load time of a webpage with Jmeter
+](https://stackoverflow.com/questions/44436567/best-way-to-find-the-correct-load-time-of-a-webpage-with-jmeter)
+* [How to make JMeter behave more like a real browser](https://guide.blazemeter.com/hc/en-us/articles/206733719-How-to-make-JMeter-behave-more-like-a-real-browser)
 ## Links on TeX
 
 After leaving TeX for some time i have to update m brain from these pages:
