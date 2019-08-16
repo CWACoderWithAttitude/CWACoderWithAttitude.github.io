@@ -37,3 +37,14 @@ Try typing `ENTER + ~ + .` to kill the ssh session (or whatever blocks te termin
 |---|---|
 |Cmd + Arrow left|Move to left terminal|
 |Cmd + Arrow right|Move to richt terminal|
+
+## mplayer
+
+|Shortcut|Pupose|
+|---|---|
+| <-  or  ->|       seek backward/forward 10 seconds|
+| down or up |      seek backward/forward  1 minute|
+| pgdown or pgup|   seek backward/forward 10 minutes|
+| < or >    |       step backward/forward in playlist|
+| p or SPACE |      pause movie (press any key to continue)|
+| q or ESC    |     stop playing and quit program|
