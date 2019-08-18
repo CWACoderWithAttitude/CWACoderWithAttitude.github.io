@@ -35,6 +35,6 @@ I've tried to describe the terms with my own words. But most of them are linked 
 |Proof of work| [PoW](https://en.wikipedia.org/wiki/Proof_of_work): Way to stop _miners_ from flodding a _blockchain_ by making it difficult to find valid new blocks by requiring them to invest lots of energy|
 |Proof of stake| [PoS](https://en.wikipedia.org/wiki/Proof_of_stake):Similar to _proof of work_ but more energy efficient. But not easier to solve|
 |SHA-256|[Cryptographic hash function](https://en.wikipedia.org/wiki/SHA-2) used in _BitCoin_ to implement _Proof of work_|
-
+|Tezos|[Tezos is an _Ethereum_ alternativ by Dynamic Ledger Solutions.](https://tezos.com)|
 
 
