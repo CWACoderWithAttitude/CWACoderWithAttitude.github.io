@@ -23,9 +23,9 @@ I've tried to describe the terms with my own words. But most of them are linked 
 |DLT|[DLT](https://de.wikipedia.org/wiki/Distributed-Ledger-Technologie): Distributed Ledger Technology. Acronym for blockchains. |
 |Smart Contract|[Smart Contract](https://en.wikipedia.org/wiki/Smart_contract): Piece of code stored in a block. The code is executed automatically whenever the conditions are met. [How do Smart Contracts work?](https://www.bitdegree.org/tutorials/what-is-a-smart-contract/)|
 |Chain Code|same as _Smart Contract_|
-|BitCoin|[BitCoin](https://de.wikipedia.org/wiki/Bitcoin) is two things 1. The first blockchain. Started on Jan, 3. 2009 By Satoshi Nakamoto. 2. (Crypto-)Currency|
+|![BitCoin](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bitcoin_logo.svg/307px-Bitcoin_logo.svg.png)|[BitCoin](https://de.wikipedia.org/wiki/Bitcoin) is two things 1. The first blockchain. Started on Jan, 3. 2009 By Satoshi Nakamoto. 2. (Crypto-)Currency|
 |Crypto Currency|Digital medium of exchange that incorporates strong cryptography [Wikipedia: Crypto Currency](https://en.wikipedia.org/wiki/Cryptocurrency)|
-|Ethereum|[Ethereum](https://en.wikipedia.org/wiki/Ethereum): BlockChain which supports _Smart Contracts_|
+|![Ethereum](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ethereum_logo.svg/150px-Ethereum_logo.svg.png)|[Ethereum](https://en.wikipedia.org/wiki/Ethereum): Second largest _BlockChain_ which supports _Smart Contracts_|
 |Ether| [Ether](https://en.wikipedia.org/wiki/Ethereum#Ether): Currency on the _ethereum_ blockchain to reward _miners_|
 |Miner|[Miner](https://en.wikipedia.org/wiki/Miner#Cryptocurrency_miners): People/Computers validating new _blocks_ and appending them to the _blockchain_|
 |Validation|Checking a blocks information whether id meets the contraints of the very _blockchain_|
@@ -36,5 +36,9 @@ I've tried to describe the terms with my own words. But most of them are linked 
 |Proof of stake| [PoS](https://en.wikipedia.org/wiki/Proof_of_stake):Similar to _proof of work_ but more energy efficient. But not easier to solve|
 |SHA-256|[Cryptographic hash function](https://en.wikipedia.org/wiki/SHA-2) used in _BitCoin_ to implement _Proof of work_|
 |Tezos|[Tezos is an _Ethereum_ alternativ by Dynamic Ledger Solutions.](https://tezos.com)|
+|![SegWit](https://blockchainwelt.de/wp-content/uploads/2018/06/segwit-bitcoin-logo.png)|[Compatible attempt to cope with _BitCoins_ transaction limitation](https://de.wikipedia.org/wiki/SegWit)|
+|p2sh|[Pay to Script Hash](https://en.bitcoin.it/wiki/Pay_to_script_hash): Secure way to perform a bitcoin transaction|
+|Schnorr, Taproot|[Attempt to increase privacy](https://www.btc-echo.de/wie-taproot-und-schnorr-bitcoins-privacy-verbessern-wird-code-in-github-lanciert/)|
+
 
 
