@@ -48,3 +48,6 @@ Try typing `ENTER + ~ + .` to kill the ssh session (or whatever blocks te termin
 | < or >    |       step backward/forward in playlist|
 | p or SPACE |      pause movie (press any key to continue)|
 | q or ESC    |     stop playing and quit program|
+
+## Starting WebServers
+* [Starting simple python webserver](https://blog.adriaan.io/run-a-simple-server-on-your-mac-for-your-static-files.html)

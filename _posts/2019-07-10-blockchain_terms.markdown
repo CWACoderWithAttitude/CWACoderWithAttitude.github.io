@@ -39,6 +39,6 @@ I've tried to describe the terms with my own words. But most of them are linked 
 |![SegWit](https://blockchainwelt.de/wp-content/uploads/2018/06/segwit-bitcoin-logo.png)|[Compatible attempt to cope with _BitCoins_ transaction limitation](https://de.wikipedia.org/wiki/SegWit)|
 |p2sh|[Pay to Script Hash](https://en.bitcoin.it/wiki/Pay_to_script_hash): Secure way to perform a bitcoin transaction|
 |Schnorr, Taproot|[Attempt to increase privacy](https://www.btc-echo.de/wie-taproot-und-schnorr-bitcoins-privacy-verbessern-wird-code-in-github-lanciert/)|
-
+|[ERC-20 Token](https://en.wikipedia.org/wiki/ERC-20)|Technical standard for implementing tokens on the Ethereum BlockChain. In general an ERC is a Request For Comments. Similar to [RFCs on the internet](https://en.wikipedia.org/wiki/List_of_RFCs). [What are RFCs](https://en.wikipedia.org/wiki/Request_for_Comments) |
 
 
