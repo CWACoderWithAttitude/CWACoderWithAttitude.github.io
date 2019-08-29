@@ -20,7 +20,7 @@ Although i consider those shortcuts are important to know my brain tends to bury
 ## SSH
 
 When my ssh session hangs due to lost conection the whole terminal is unusable.   
-Try typing `ENTER + ~ + .` to kill the ssh session (or whatever blocks te terminal)
+Try typing `ENTER + ~ + .` to kill the ssh session (or whatever blocks the terminal)
 
 ## OS X 
 
@@ -50,4 +50,25 @@ Try typing `ENTER + ~ + .` to kill the ssh session (or whatever blocks te termin
 | q or ESC    |     stop playing and quit program|
 
 ## Starting WebServers
+Sometimes its quite convenient to access your file via http.   
+To implement that you do not have to setup a full fledged apache httpd.
+### Python
 * [Starting simple python webserver](https://blog.adriaan.io/run-a-simple-server-on-your-mac-for-your-static-files.html)
+
+### NodeJS
+In node there's [http-server](). Install it globally to have the chance to start a webserver whereever you want:
+```shell
+$> npm install -g http-server
+```
+
+Now start the webserver from a	ny directory on your system:
+```shell
+$> http-server
+Starting up http-server, serving ./
+Available on:
+  http://127.0.0.1:8081
+  http://192.168.43.192:8081
+Hit CTRL-C to stop the server
+```
+ 
+
