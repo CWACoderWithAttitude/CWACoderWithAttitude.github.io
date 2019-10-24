@@ -71,4 +71,14 @@ Available on:
 Hit CTRL-C to stop the server
 ```
  
+## TimeMachine
 
+TimeMachine - TM -  is the tool of choice for os x backup. I'll list some commands to interact with TM, get statuses etc..
+
+Listing all local snapshots for a volume
+```shell
+$> tmutil listlocalsnapshots /
+com.apple.TimeMachine.2019-08-29-110604
+com.apple.TimeMachine.2019-08-29-121218
+...
+```
