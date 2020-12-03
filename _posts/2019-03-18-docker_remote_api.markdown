@@ -13,7 +13,17 @@ You can choose to make dockerd available to remote hosts. This can be achieved b
 ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:2376
 ```
 
-A detailed decription of the [Docker Engine API can be found here](https://docs.docker.com/develop/sdk/).
+In case tweaking docker config is not an option yo may use `socat`:
+
+```bash
+$> docker run -d \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    --name socat \
+    -p 127.0.0.1:2375:2375 \
+    bobrik/socat \
+    TCP-LISTEN:2375,fork UNIX-CONNECT:/var/run/docker.sock
+```
+A detailed decription of the [Docker Engine API can be found here](https://docs.docker.com/develop/sdk/). Please find more detailed info on [socat here](https://lihsmi.ch/docker/2020/01/02/socat-docker.html)
 
 ## List containers and their state
 
