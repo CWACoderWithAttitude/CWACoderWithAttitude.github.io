@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Pimp VS Code"
+date:   2022-07-07 22:20:17 +0200
+categories: [hacking]
+tags: [coding, ide,]
+permalink: /pimp_vscode
+---
+VS Code is great editor - colon.   
+There're ways to make it even better:
+* by using fonts better suited for coding - like [Install Fira Code Font](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
+* and enabling ligatures
+  ```json
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true
+  ```
+* For smooth editing install `Disable Ligatures` plugin   
+  This translates the cool ligatures into editable characters.
+* [More on ligatures](https://marketplace.visualstudio.com/items?itemName=kshetline.ligatures-limited)
