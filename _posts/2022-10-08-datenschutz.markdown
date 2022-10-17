@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Datenschutz"
-date:   2018-05-13 13:11:17 +0200
+date:   2022-10-08 13:11:17 +0200
 categories: dsgvo, datenschutz grundverorgnung
-permalink: /datenschutz
+permalink: /dsgvo
 ---
 <h1>Datenschutzerklärung</h1>
 <h2 id="m14">Einleitung</h2>
