@@ -18,3 +18,8 @@ There're ways to make it even better:
   * For smooth editing install `Disable Ligatures` plugin   
   This translates the cool ligatures into editable characters.
   * [More on ligatures](https://marketplace.visualstudio.com/items?itemName=kshetline.ligatures-limited)
+
+  > A few more modifications i've to explain later
+
+  - Cobalt2 Theme for VS Code
+  - cascadia font (instead of `Fira Code` - c above)
