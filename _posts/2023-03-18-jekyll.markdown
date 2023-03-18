@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Jekyll"
+date:   2023-03-18 21:20:10 +0200
+categories: [Jekyll]
+tags: [jekyll, imagesize, tip and tricks]
+
+---
+# Some neat stuff i found out about jekyll.
+
+* Resizing images:
+Can be done using  tags like this: `![My Image](/path/to/image.png){:width="100%"}` or `![My Image](/path/to/image.png){:height="700px" width="400px"}`   
+[Found here](https://www.seanosier.com/2021/03/19/resize-images-in-jekyll-markdown/) - i still have to find out how to display the resized image and link to the original image file.
+
+
+
