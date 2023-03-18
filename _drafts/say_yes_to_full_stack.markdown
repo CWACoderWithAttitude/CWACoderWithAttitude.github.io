@@ -17,12 +17,12 @@ I'm a bit confused why so many people claim they want Full Stack Developers.
 
 During the time of my professional career i've seen some companies or teams or individuals trying to be "Full Stack".  
 Lets put it like that: The results were not what you'd expect to see.   
-Nor what the customer wants
+Nor what the customer wanted
 
 * What about the discussion about cross-functional teams?
-* Why do we employ Information Architects? Forget about them - fire them all. The full stack dev will do the job!
+* Why do we employ Information Architects? Forget about them - fire them all. The full stack dev will get the job done!
 * Backend business logic? The frontend guy knows JavaScript. We should just fire up a node express instance and we're fine.
-* Data modelling? Hey, there's always an ORM mapper at hand.
+* Data modelling? Hey, there's always an ORM mapper at hand. Or - even worse - just stored everything in a schemaless NoSQL DB.
 Just create some POJOs, add some some annotation fairy dust - we're set.
 * Concepters? We're brilliant - we just KNOW what the customer needs. We don't need those meta-guys.
 
@@ -43,12 +43,12 @@ People `respecting` each other.
 People actually `talking` to each other to solve problems.  
 People `understanding` each other. And understand their challenges and contraints.  
 We want and need people working `together`. To get the job done.  
-Make the customer happy - and earn some money.
+Make the `customer happy` - and earn some money.
 
-Lets find out what others think. I agree with some of the ideas. I disagree with some.
+Lets find out what others think. I agree with some of the ideas. I disagree with others.
 
 As always: Use your most valuable tool. Your brain!  
-Proceedings have to fit the customer and the team.  
+Proceedings have to fit the customers problem and the team.  
 
 Thank you for reading,  
 Volker
