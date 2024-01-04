@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Misc Stuff on SSH "
+date:   2023-05-19 11:20:10 +0200
+categories: [ssh]
+tags: [ssh, scp, seciure shelll]
+
+---
+# Misc Studf on SSH
+
+## Setup SSH Connection to Raspberry Pi
+1. Create Key-Pair
+```shell
+╰─ ssh-keygen -t ed25519 -b 4096 -f ~/.ssh/id_ed25519_raspik3s                                                            ─╯
+Generating public/private ed25519 key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/volker/.ssh/id_ed25519_raspik3s
+Your public key has been saved in /Users/volker/.ssh/id_ed25519_raspik3s.pub
+The key fingerprint is:
+SHA256:1drFJa2WhxOfQVEYgYFd/sc8JpUWRUK6G235T6MU6P0 volker@MBP-von-Volker.fritz.box
+The key's randomart image is:
++--[ED25519 256]--+
+|           o.=OXO|
+|          ..o+o=+|
+|          . o +Xo|
+|         . o.+O*o|
+|        S ..+++==|
+|          . .++.o|
+|           ..o .o|
+|            . o.o|
+|             . E.|
++----[SHA256]-----+
+```
+
+2. Copy Public component to target machine
+```shell
+$> cat ~/.ssh/id_ed25519_raspik3s.pub | ssh pi@raspik3s.fritz.box 'umask 0077; mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys'
+```

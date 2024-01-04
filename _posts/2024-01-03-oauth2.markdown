@@ -1,0 +1,51 @@
+---
+layout: post
+title: "OAuth2 Terminology"
+date: 2024-01-03 00:30:10 +0200
+categories: [security]
+tags: [oauth2, terminology]
+---
+
+# Terms used when talking OAuth2
+
+> Disclaimer: Data shown here is most likely incorrect. Use at your own risk. The main purpose is a kinda cheat sheet i can refer to.
+
+| Term                     | Meaning                                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------------------- |
+| Resource Owner           | Person really owning the data (emails, bitcoin, bankaccount...)                          |
+| Client                   | Application that wat to access your data on your behalf and perform actions on your data |
+| Authorization Server     | System to consent to allowing the client to act on your data                             |
+|                          | (accounts.google.com, idp.insurance.com...))                                             |
+| Resource Server          | API / System holding the data                                                            |
+| Authorization Grant      | Proof that the user has answered `yes` in the consent dialog                             |
+| Redirect URI             | The Authorization redirects to the client app. This URI says where exactly.              |
+| Access Token             | What the client really wants/needs - this token finally allows accessing the data        |
+| OAuth Scope(s) / Consent | Action/permission the client asks for in the first place                                 |
+|                          | The Authorization Server maintains a list of valid scopes                                |
+| Back channel             | highly secure (backend app)                                                              |
+| Front  channel channel    | less secure (browser app)                                                                |
+
+> Quite often authorization and resource server are identical - but that's no requirement.
+
+The scope send in step 2.c is used to build the consent dialog
+
+## Types of Authorization Grants:
+
+1. Code : Most common one: Code Grant
+
+## OAuth Flow
+
+1. Client: Button: Connect with Apple/Google/M$
+1. Call Autorization Server and provides a) Redirect URI: client.com/callback and b) Response type: code and c) Scope
+
+   Response type specifies which type of Authorization Grant we want.
+
+1. Asks/prompte user to login and consent to the permissions requested by the Client
+1. If User consents: Authorization Server redirects the user the the URI given in step 2
+   and sends an authorization code with this redirect
+1. Client now uses this authorization code to go back to the authorization server and says: Great, thx for the authorization code. But what i really really is an Access Token (and swap the code for a token).
+1. Authorization Server verifies this code
+1. Client uses Access Token to access data on Resource Server (contacts.apple.com,...)
+
+- https://www.youtube.com/watch?v=996OiexHze0&t=22s
+- https://www.youtube.com/watch?v=LLQqjEW-RAA

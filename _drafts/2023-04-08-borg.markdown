@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "Borg Backup"
+date:   2023-04-08 11:20:10 +0200
+categories: [backup]
+tags: [borgbackup, borg, ssh, diskstattion, nas]
+
+---
+# My approach to Borg Backup
+
+I'll start an additional way to backup data.
+
+```shell
+❯ borg init --encrcyption=repokey <backup location> 
+```
+
+```shell
+❯ borg init --encryption=repokey --make-parent-dirs /Volumes/Lake/borg-backups
+A repository already exists at /Volumes/Lake/borg-backups.
+
+❯ tree /Volumes/Lake/borg-backups
+/Volumes/Lake/borg-backups
+├── README
+├── config
+├── data
+│   └── 0
+│       ├── 0
+│       └── 1
+├── hints.1
+├── index.1
+├── integrity.1
+└── nonce
+
+2 directories, 8 files
+```
+
+Perfecto - lets create a first Backup
+```shell
+❯ borg create --compression lzma,5 /Volumes/Lake/borg-backups::myTest ~/Dev/volker/openCV
+Enter passphrase for key /Volumes/Lake/borg-backups:
+
+❯ tree /Volumes/Lake/borg-backups
+/Volumes/Lake/borg-backups
+├── README
+├── config
+├── data
+│   └── 0
+│       ├── 0
+│       ├── 1
+│       ├── 2
+│       ├── 3
+│       ├── 4
+│       └── 5
+├── hints.5
+├── index.5
+├── integrity.5
+└── nonce
+
+2 directories, 12 files
+```
+
+What do Borg say about this backup:
+```shell
+❯ borg list  /Volumes/Lake/borg-backups
+Enter passphrase for key /Volumes/Lake/borg-backups:
+myTest                               Sat, 2023-04-08 23:02:14 [818f6f7a60cea9353c4c9b91b77e3f63403e13c782ec8c216d8f47155d497c32]
+❯ borg list --info  /Volumes/Lake/borg-backups
+Enter passphrase for key /Volumes/Lake/borg-backups:
+myTest                               Sat, 2023-04-08 23:02:14 [818f6f7a60cea9353c4c9b91b77e3f63403e13c782ec8c216d8f47155d497c32]
+
+❯
+```
+It seems `--info` is a default option to the `list` command
+
+Lets add some pictures:
+```shell
+❯ borg create --compression lzma,5 /Volumes/Lake/borg-backups::Pictures2017 ~/Pictures/2017
+
+❯ borg list  /Volumes/Lake/borg-backups
+Enter passphrase for key /Volumes/Lake/borg-backups:
+myTest                               Sat, 2023-04-08 23:02:14 [818f6f7a60cea9353c4c9b91b77e3f63403e13c782ec8c216d8f47155d497c32]
+Pictures2017                         Sat, 2023-04-08 23:11:43 [7b71f11a3f59ae98c6ff9dae39863814874d88e3c9de9ce5dc25866def293ea0]
+```
+## Links
+* [Backup mit Borgmatic und Borg zu eigenem Backup Server via SSH](https://lanbugs.de/howtos/linux/backup-mit-borgmatic-und-borg-zu-eigenem-backup-server-via-ssh/)
+* [Quick Start](https://borgbackup.readthedocs.io/en/stable/quickstart.html)
+* [General Borg Usage](https://borgbackup.readthedocs.io/en/stable/usage/general.html)
+

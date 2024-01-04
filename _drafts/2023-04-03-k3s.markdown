@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "K3S on Macbook M1"
+date:   2023-04-03 23:28:10 +0200
+categories: [kubernetes]
+tags: [kubernetes, k3s, k8s]
+
+---
+# Installing k3s on M1 Macbook Pro
+
+I'll follow these [steps](https://pgillich.medium.com/setup-lightweight-kubernetes-with-k3s-6a1c57d62217)   
+Nope [this one](https://avilpage.com/2023/03/setup-k8s-anywhere-k3d.html)
+
+```shell
+❯  brew install k3d
+❯ k3d cluster create demo
+INFO[0000] Prep: Network
+INFO[0000] Created network 'k3d-demo'
+INFO[0000] Created image volume k3d-demo-images
+INFO[0000] Starting new tools node...
+INFO[0001] Creating node 'k3d-demo-server-0'
+INFO[0001] Pulling image 'ghcr.io/k3d-io/k3d-tools:5.4.9'
+INFO[0003] Pulling image 'docker.io/rancher/k3s:v1.25.7-k3s1'
+INFO[0003] Starting Node 'k3d-demo-tools'
+INFO[0018] Creating LoadBalancer 'k3d-demo-serverlb'
+INFO[0020] Pulling image 'ghcr.io/k3d-io/k3d-proxy:5.4.9'
+INFO[0024] Using the k3d-tools node to gather environment information
+INFO[0025] Starting new tools node...
+INFO[0025] Starting Node 'k3d-demo-tools'
+INFO[0027] Starting cluster 'demo'
+INFO[0027] Starting servers...
+INFO[0027] Starting Node 'k3d-demo-server-0'
+INFO[0031] All agents already running.
+INFO[0031] Starting helpers...
+INFO[0031] Starting Node 'k3d-demo-serverlb'
+INFO[0038] Injecting records for hostAliases (incl. host.k3d.internal) and for 3 network members into CoreDNS configmap...
+INFO[0040] Cluster 'demo' created successfully!
+INFO[0040] You can now use it like this:
+kubectl cluster-info
+❯ kubectl get nodes
+NAME                STATUS   ROLES                  AGE   VERSION
+k3d-demo-server-0   Ready    control-plane,master   19s   v1.25.7+k3s1
+❯ kubectl get services
+NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+kubernetes   ClusterIP   10.43.0.1    <none>        443/TCP   82s
+❯ kubectl get services
+❯ kubectl cluster-info
+Kubernetes control plane is running at https://0.0.0.0:53588
+CoreDNS is running at https://0.0.0.0:53588/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+Metrics-server is running at https://0.0.0.0:53588/api/v1/namespaces/kube-system/services/https:metrics-server:https/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+```
+
+## Install helm on Raspi3
+
+```shell
+curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
+sudo apt-get install apt-transport-https --yes
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+sudo apt-get update
+sudo apt-get install helm
+```
+
+
+## Links
+* [nerdctl, k8s](https://tonylixu.medium.com/k8s-why-use-nerdctl-for-containerd-f4ea49bcf900?source=read_next_recirc---two_column_layout_sidebar------1---------------------ab573e00_2fd3_4b55_9497_c96f2530ed7f-------)
+* [admin dashboard](https://devpress.csdn.net/k8s/62ebf06b19c509286f415df1.html)
+* [install homer dashboard](https://www.datree.io/helm-chart/homer-truecharts)
+* [k3s-traefik](https://rpi4cluster.com/k3s/k3s-traefik/)
+* [Traefik Ingress Example YAML and setup in K3s](https://www.virtualizationhowto.com/2022/05/traefik-ingress-example-yaml-and-setup-in-k3s/)  
+* [Ingress with Traefik on K3s](https://itnext.io/ingress-with-treafik-on-k3s-53db6e751ed3)
+  
+

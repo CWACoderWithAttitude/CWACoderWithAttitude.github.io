@@ -1,30 +1,32 @@
 ---
 layout: post
-title:  "Say Yes! to Full Stack"
+title: "Say Yes! to Full Stack"
+date: 2020-05-02 20:10:17 +0200
 categories: [developer, fullstack]
 tags: [collaboration, backend, frontend, architect]
 permalink: /say_yes_to_fullstack/
 ---
-Maybe i was a bit strict in my last post on this topic ?!   
 
-What is this stack we want to be able to cope with?    
-I think this usually means three things:   
-a) Frontend   
-b) Backend   
+Maybe i was a bit strict in my last post on this topic ?!
+
+What is this stack we want to be able to cope with?  
+I think this usually means three things:  
+a) Frontend  
+b) Backend
 
 When i hear "Frontend" i think: CSS, LESS, SASS, HTML, JS, browser incompatibilities, REST, async
 I'm a bit confused why so many people claim they want Full Stack Developers.
 
 During the time of my professional career i've seen some companies or teams or individuals trying to be "Full Stack".  
-Lets put it like that: The results were not what you'd expect to see.   
+Lets put it like that: The results were not what you'd expect to see.  
 Nor what the customer wanted
 
-* What about the discussion about cross-functional teams?
-* Why do we employ Information Architects? Forget about them - fire them all. The full stack dev will get the job done!
-* Backend business logic? The frontend guy knows JavaScript. We should just fire up a node express instance and we're fine.
-* Data modelling? Hey, there's always an ORM mapper at hand. Or - even worse - just stored everything in a schemaless NoSQL DB.
-Just create some POJOs, add some some annotation fairy dust - we're set.
-* Concepters? We're brilliant - we just KNOW what the customer needs. We don't need those meta-guys.
+- What about the discussion about cross-functional teams?
+- Why do we employ Information Architects? Forget about them - fire them all. The full stack dev will get the job done!
+- Backend business logic? The frontend guy knows JavaScript. We should just fire up a node express instance and we're fine.
+- Data modelling? Hey, there's always an ORM mapper at hand. Or - even worse - just stored everything in a schemaless NoSQL DB.
+  Just create some POJOs, add some some annotation fairy dust - we're set.
+- Concepters? We're brilliant - we just KNOW what the customer needs. We don't need those meta-guys.
 
 Ok, lets put the humor aside and get serious. Otherwise we'd burn precious money.  
 Of course the bullet points have some dramatic sugar.  
@@ -48,7 +50,7 @@ Make the `customer happy` - and earn some money.
 Lets find out what others think. I agree with some of the ideas. I disagree with others.
 
 As always: Use your most valuable tool. Your brain!  
-Proceedings have to fit the customers problem and the team.  
+Proceedings have to fit the customers problem and the team.
 
 Thank you for reading,  
 Volker
@@ -57,11 +59,10 @@ Lets try to find out what a "Full Stack Developer" actually is:
 [Hackernoon](https://hackernoon.com/6-essential-tips-on-how-to-become-a-full-stack-developer-1d10965aaead) says this:
 
 ---
+
 A full stack developer is an engineer who can handle all the work of databases, servers, systems engineering, and clients. Depending on the project, what customers need may be a mobile stack, a Web stack, or a native application stack.
 
 ---
-
-
 
 [w3schools](https://www.w3schools.com/whatis/whatis_fullstack.asp):
 

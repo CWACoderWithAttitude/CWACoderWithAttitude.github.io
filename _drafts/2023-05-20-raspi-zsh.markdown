@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "ZSH on Raspberry Pi(3b)"
+date:   2023-05-20 20:28:10 +0200
+categories: [shell]
+tags: [zsh, raspi raspberry pi]
+
+---
+# Installing zsh on Raspi
+
+I'll follow these [steps](https://pgillich.medium.com/setup-lightweight-kubernetes-with-k3s-6a1c57d62217)   
+Nope [this one](https://avilpage.com/2023/03/setup-k8s-anywhere-k3d.html)
+
+# First install zsh
+
+```shell
+pi@raspberrypi:~/dev/src/helm-charts $ sudo apt install -y zsh
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  zsh-common
+Suggested packages:
+  zsh-doc
+The following NEW packages will be installed:
+  zsh zsh-common
+0 upgraded, 2 newly installed, 0 to remove and 47 not upgraded.
+Need to get 4,552 kB of archives.
+After this operation, 16.8 MB of additional disk space will be used.
+Get:1 http://ftp.halifax.rwth-aachen.de/raspbian/raspbian buster/main armhf zsh-common all 5.7.1-1+deb10u1 [3,805 kB]
+Get:2 http://mirror.de.leaseweb.net/raspbian/raspbian buster/main armhf zsh armhf 5.7.1-1+deb10u1 [747 kB]
+Fetched 4,552 kB in 3s (1,722 kB/s)
+Selecting previously unselected package zsh-common.
+(Reading database ... 44803 files and directories currently installed.)
+Preparing to unpack .../zsh-common_5.7.1-1+deb10u1_all.deb ...
+Unpacking zsh-common (5.7.1-1+deb10u1) ...
+Selecting previously unselected package zsh.
+Preparing to unpack .../zsh_5.7.1-1+deb10u1_armhf.deb ...
+Unpacking zsh (5.7.1-1+deb10u1) ...
+Setting up zsh-common (5.7.1-1+deb10u1) ...
+Setting up zsh (5.7.1-1+deb10u1) ...
+Processing triggers for man-db (2.8.5-2) ...
+pi@raspberrypi:~/dev/src/helm-charts $
+```
+
+## Install oh-my-zsh
+
+```shell
+pi@raspberrypi:~/dev/src/helm-charts $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+Cloning Oh My Zsh...
+remote: Enumerating objects: 1334, done.
+remote: Counting objects: 100% (1334/1334), done.
+remote: Compressing objects: 100% (1286/1286), done.
+remote: Total 1334 (delta 35), reused 1011 (delta 27), pack-reused 0
+Receiving objects: 100% (1334/1334), 1.99 MiB | 1.43 MiB/s, done.
+Resolving deltas: 100% (35/35), done.
+From https://github.com/ohmyzsh/ohmyzsh
+ * [new branch]      master     -> origin/master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Already on 'master'
+/home/pi/dev/src/helm-charts
+
+Looking for an existing zsh config...
+Using the Oh My Zsh template file and adding it to /home/pi/.zshrc.
+
+Time to change your default shell to zsh:
+Do you want to change your default shell to zsh? [Y/n]
+Changing your shell to /usr/bin/zsh...
+Shell successfully changed to '/usr/bin/zsh'.
+
+         __                                     __
+  ____  / /_     ____ ___  __  __   ____  _____/ /_
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/
+                        /____/                       ....is now installed!
+
+
+Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, themes, and options.
+
+• Follow us on Twitter: https://twitter.com/ohmyzsh
+• Join our Discord community: https://discord.gg/ohmyzsh
+• Get stickers, t-shirts, coffee mugs and more: https://shop.planetargon.com/collections/oh-my-zsh
+
+➜  helm-charts git:(master) ✗
+```
+
+## Links
+* [How to Install and setup Zsh (Z shell) on Raspberry Pi](https://linuxhint.com/install-zsh-raspberry-pi/)
+* [admin dashboard](https://devpress.csdn.net/k8s/62ebf06b19c509286f415df1.html)
+* [install homer dashboard](https://www.datree.io/helm-chart/homer-truecharts)
+* [k3s-traefik](https://rpi4cluster.com/k3s/k3s-traefik/)
+* [Traefik Ingress Example YAML and setup in K3s](https://www.virtualizationhowto.com/2022/05/traefik-ingress-example-yaml-and-setup-in-k3s/)  
+* [Ingress with Traefik on K3s](https://itnext.io/ingress-with-treafik-on-k3s-53db6e751ed3)
+  
+
