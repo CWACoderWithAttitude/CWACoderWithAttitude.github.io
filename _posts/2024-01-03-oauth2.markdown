@@ -2,13 +2,14 @@
 layout: post
 title: "OAuth2 Terminology"
 date: 2024-01-03 00:30:10 +0200
-categories: [security]
-tags: [oauth2, terminology]
+categories: [oauth2]
+tags: [security, terminology]
 ---
+
+> Disclaimer: Data shown here is most likely incorrect. Use at your own risk. The main purpose is a kinda cheat sheet i can refer to.
 
 # Terms used when talking OAuth2
 
-> Disclaimer: Data shown here is most likely incorrect. Use at your own risk. The main purpose is a kinda cheat sheet i can refer to.
 
 | Term                     | Meaning                                                                                  |
 | ------------------------ | ---------------------------------------------------------------------------------------- |
@@ -23,7 +24,7 @@ tags: [oauth2, terminology]
 | OAuth Scope(s) / Consent | Action/permission the client asks for in the first place                                 |
 |                          | The Authorization Server maintains a list of valid scopes                                |
 | Back channel             | highly secure (backend app)                                                              |
-| Front  channel channel    | less secure (browser app)                                                                |
+| Front channel channel    | less secure (browser app)                                                                |
 
 > Quite often authorization and resource server are identical - but that's no requirement.
 

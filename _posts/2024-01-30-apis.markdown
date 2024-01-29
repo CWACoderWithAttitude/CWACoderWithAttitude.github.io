@@ -1,0 +1,27 @@
+---
+layout: post
+title: "API Stuff"
+date: 2024-01-30 00:30:10 +0200
+categories: [web]
+tags: [api]
+---
+
+> Disclaimer: Data shown here is most likely incorrect. Use at your own risk. The main purpose is a kinda cheat sheet i can refer to.
+
+# Terms used when talking OAuth2
+
+| API                                                                          | Purpose                                        |
+| ---------------------------------------------------------------------------- | ---------------------------------------------- |
+| [www.igbd.com/api](https://www.igbd.com/api)                                 | Video game database                            |
+| [pokeapi.co](https://pokeapi.co)                                             | Everything pokemon                             |
+| [beta.pokeapi.co/graphql/console/](https://beta.pokeapi.co/graphql/console/) | Everything pokemon > GraphQL Query             |
+| [fakestoreapi.com](https://fakestoreapi.com)                                 | Data for a fake store                          |
+| [www.edamam.com](https://www.edamam.com)                                     | Food, recipes and health analyses              |
+| [favqs.com/api/](https://favqs.com/api/)                                     | Quotes                                         |
+| [api.nasa.gov](https://api.nasa.gov)                                         | Everything space related                       |
+| [docs.mapbox.com/api](https://docs.mapbox.com/api)                           | Comprehensive tools and accurate location data |
+|                                                                              |                                                |
+
+I found these links in a post on linkedin - but when i wanted to add the appr. link to the source i couldn't find it again. Sorry for that.
+
+Instead i stumbled upon [this video on API documentation and best practices](https://www.linkedin.com/posts/free-code-camp_api-documentation-best-practices-course-activity-7156300855208538112-8lPj?utm_source=share&utm_medium=member_desktop). Thanks for creating the content Jason Harmon and sharing it free of charge [Beau Carnes](https://www.freecodecamp.org/news/author/beau/)
