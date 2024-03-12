@@ -2,39 +2,19 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
 	"name": "Jekyll",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "jekyll",
+	"workspaceFolder": "/"
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/jekyll:0-bullseye"
-
+	//"image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye"
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	
-	,"mounts": [
-		"source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached",
-		"source=${localWorkspaceFolder},target=/data,type=bind,consistency=cached"
-	]
-	
+	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	,"forwardPorts": [
-		// Jekyll server
-		4000,
-		// Live reload server
-		35729
-	],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sh .devcontainer/post-create.sh",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"wesbos.theme-cobalt2",
-				"eamodio.gitlens",
-				"mhutchie.git-graph"
-			]
-		}
-	}
-
+	// "forwardPorts": [],
+	// Uncomment the next line to run commands after the container is created.
+	// "postCreateCommand": "jekyll --version"
 	// Configure tool-specific properties.
 	// "customizations": {},
-
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }

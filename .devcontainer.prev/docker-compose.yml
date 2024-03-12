@@ -1,0 +1,9 @@
+# no version needed since 2020
+# taken from https://github.com/BretFisher/jekyll-serve/blob/main/docker-compose.yml
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
+    ports:
+      - "4000:4000"

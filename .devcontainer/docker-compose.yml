@@ -1,0 +1,16 @@
+# no version needed since 2020
+# taken from https://github.com/BretFisher/jekyll-serve/blob/main/docker-compose.yml
+services:
+  jekyll:
+    #image: bretfisher/jekyll-serve
+    #image: "mcr.microsoft.com/devcontainers/ruby:1-3.2-bullseye"
+    image: "starefossen/github-pages:latest"
+    volumes:
+      - $PWD/../:/usr/src/app
+    ports:
+      - "4000:4000"
+    networks:
+      jekyll-serve-net:
+
+networks:
+  jekyll-serve-net:
