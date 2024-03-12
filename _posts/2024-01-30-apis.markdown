@@ -6,9 +6,11 @@ categories: [web]
 tags: [api]
 ---
 
-> Disclaimer: Data shown here is most likely incorrect. Use at your own risk. The main purpose is a kinda cheat sheet i can refer to.
+> Disclaimer: Data shown here is most likely incorrect.
+> Use at your own risk.
+> The main purpose is a kinda cheat sheet i can refer to.
 
-# Terms used when talking OAuth2
+## Terms used when talking OAuth2
 
 | API                                                                          | Purpose                                        |
 | ---------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -20,8 +22,10 @@ tags: [api]
 | [favqs.com/api/](https://favqs.com/api/)                                     | Quotes                                         |
 | [api.nasa.gov](https://api.nasa.gov)                                         | Everything space related                       |
 | [docs.mapbox.com/api](https://docs.mapbox.com/api)                           | Comprehensive tools and accurate location data |
-|                                                                              |                                                |
+| []()                                                                             |                                                |
 
 I found these links in a post on linkedin - but when i wanted to add the appr. link to the source i couldn't find it again. Sorry for that.
-
+[Public APIs Developers Can Use in Their Projects](https://www.freecodecamp.org/news/public-apis-for-developers/)
+[Free Public APIs for Developers](https://rapidapi.com/collection/list-of-free-apis)
+[> 1000 public APIs](https://github.com/public-apis/public-apis)
 Instead i stumbled upon [this video on API documentation and best practices](https://www.linkedin.com/posts/free-code-camp_api-documentation-best-practices-course-activity-7156300855208538112-8lPj?utm_source=share&utm_medium=member_desktop). Thanks for creating the content Jason Harmon and sharing it free of charge [Beau Carnes](https://www.freecodecamp.org/news/author/beau/)
