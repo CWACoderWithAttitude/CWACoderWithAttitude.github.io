@@ -10,7 +10,7 @@ tags: [api]
 > Use at your own risk.
 > The main purpose is a kinda cheat sheet i can refer to.
 
-## Terms used when talking OAuth2
+## some more or less interesting API resources
 
 | API                                                                          | Purpose                                        |
 | ---------------------------------------------------------------------------- | ---------------------------------------------- |
