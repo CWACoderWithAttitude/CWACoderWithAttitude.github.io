@@ -3,7 +3,7 @@ layout: post
 title:  "Misc Stuff on SSH "
 date:   2023-05-19 11:20:10 +0200
 categories: [ssh]
-tags: [ssh, scp, seciure shelll]
+tags: [ssh, scp, secure shell]
 
 ---
 # Misc Studf on SSH

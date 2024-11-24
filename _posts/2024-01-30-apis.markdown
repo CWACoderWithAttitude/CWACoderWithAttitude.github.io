@@ -10,7 +10,7 @@ tags: [api]
 > Use at your own risk.
 > The main purpose is a kinda cheat sheet i can refer to.
 
-## some more or less interesting API resources
+## Stuff that can help develop (better) APIs
 
 | API                                                                          | Purpose                                        |
 | ---------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -22,7 +22,9 @@ tags: [api]
 | [favqs.com/api/](https://favqs.com/api/)                                     | Quotes                                         |
 | [api.nasa.gov](https://api.nasa.gov)                                         | Everything space related                       |
 | [docs.mapbox.com/api](https://docs.mapbox.com/api)                           | Comprehensive tools and accurate location data |
-| []()                                                                             |                                                |
+| [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)         |                                                |
+| []( https://dev.api.basf.com/chemical/)                                                                         |                                                |
+| []()                                                                         |                                                |
 
 I found these links in a post on linkedin - but when i wanted to add the appr. link to the source i couldn't find it again. Sorry for that.
 [Public APIs Developers Can Use in Their Projects](https://www.freecodecamp.org/news/public-apis-for-developers/)
