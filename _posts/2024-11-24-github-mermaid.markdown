@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Testbed"
+title:  "Mermaid 5-04-Testbed"
 date:   2024-11-24 22:04:10 +0200
 categories: [testing]
 tags: [experimemnt, testbed]

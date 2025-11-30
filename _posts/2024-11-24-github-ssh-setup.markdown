@@ -17,25 +17,25 @@ This is how:
 
 1. [Create Key-Pair](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 ```shell
-$ ssh-keygen -t ed25519 -b 4096 -f ~/.ssh/ed25519_cwa_github -C "CWACoderWithAttitude@gmail.com"
+$ ssh-keygen -t ed25519 -b 4096 -f ~/.ssh/id_ed25519_cwa_github -C "CWACoderWithAttitude@gmail.com"
 Generating public/private ed25519 key pair.
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in /home/pi/.ssh/ed25519_cwa_github
-Your public key has been saved in /home/pi/.ssh/ed25519_cwa_github.pub
+Your identification has been saved in /home/pi/.ssh/id_ed25519_cwa_github
+Your public key has been saved in /home/pi/.ssh/id_ed25519_cwa_github.pub
 The key fingerprint is:
-SHA256:TjJGkJXK/5ffpmal84Z/ZGx/R6/mICaBzF4Bw7Gtn1c CWACoderWithAttitude@gmail.com
+SHA256:4Ib0JfR8bmjc8lP46J7ZG/M4M7dHW7tjihpvrgzZQsk CWACoderWithAttitude@gmail.com
 The key's randomart image is:
 +--[ED25519 256]--+
-|    .+=o         |
-|    ..o=         |
-|   . .o o        |
-|    o+ o .       |
-|     .O S   E  . |
-|     o.B o .  . *|
-|      ..= +..+ =o|
-|        .+o.*o+ *|
-|         . +oX*oo|
+|      .          |
+|     . o         |
+|    . o + .      |
+|   . +.=.= .     |
+|    . +ES = .    |
+|     ...o+ +    o|
+|       + o+ +  .+|
+|        +.o*==.=.|
+|         =X++B=+o|
 +----[SHA256]-----+
 ```
 
