@@ -1,10 +1,10 @@
-
-# https://hub.docker.com/r/microsoft/devcontainers-jekyll
+# https://winkelwagen.de/2024/04/18/jekyll-github-pages-docker-add-dependencies/
 services:
   jekyll:
-    #image: bretfisher/jekyll-serve
-    image: mcr.microsoft.com/devcontainers/jekyll:bookworm
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
-      - .:/site
-    #ports:
-    #  - "4000:4000"
+      - ..:/site
+    ports:
+      - "4000:4000"
