@@ -14,6 +14,9 @@ tags: [api]
 
 | API                                                                          | Purpose                                        |
 | ---------------------------------------------------------------------------- | ---------------------------------------------- |
+| [TheTVDB.com](https://www.thetvdb.com/api-information)                                 | the most accurate source for TV and film                            |
+| [TheTVDB.org, Developer](https://www.themoviedb.org/documentation/api?language=de)                                 | Get started with the basics of the TMDB API.                            |
+| [The Open Movie Database](https://www.omdbapi.com)                                 | Movies                            |
 | [www.igbd.com/api](https://www.igbd.com/api)                                 | Video game database                            |
 | [pokeapi.co](https://pokeapi.co)                                             | Everything pokemon                             |
 | [beta.pokeapi.co/graphql/console/](https://beta.pokeapi.co/graphql/console/) | Everything pokemon > GraphQL Query             |
@@ -25,6 +28,7 @@ tags: [api]
 | [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)         |                                                |
 | []( https://dev.api.basf.com/chemical/)                                                                         |                                                |
 | []()                                                                         |                                                |
+
 
 I found these links in a post on linkedin - but when i wanted to add the appr. link to the source i couldn't find it again. Sorry for that.
 [Public APIs Developers Can Use in Their Projects](https://www.freecodecamp.org/news/public-apis-for-developers/)

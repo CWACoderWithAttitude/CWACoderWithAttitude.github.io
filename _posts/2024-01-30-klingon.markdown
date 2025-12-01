@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Klingon"
+date: 2024-01-30 00:30:10 +0200
+categories: [web]
+tags: [startrek,klingon,kli]
+---
+
+## Klingon
+* [KLCP Prep](https://www.kli.org/members-only/klcp-prep/)
+* [Klingon Phrases](https://www.kli.org/about-klingon/klingon-phrases/)
+* [Sounds of Klingon](https://www.kli.org/about-klingon/sounds-of-klingon/)
+* [Klingon Meme Generator](https://imgflip.com/memegenerator/66329521/Klingon-Warrior)
