@@ -28,4 +28,4 @@ These aspects are covered:
 * Adminer as GUI tool to manage DBs
 * MSSQL Tools if you don't like GUIs
 
-You can click the green `Use this template` to create a your own project.
+You can click the green `Use this template` button in the upper right corner to create a your own project.
