@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring Boot All-In-One-Devcontainer"
-date: 2024-01-30 00:30:10 +0200
+date: 2025-06-10 12:30:10 +0200
 categories: [web]
 tags: [api,java,spring-boot,postgresql,monitoring,prometheus]
 ---
@@ -16,10 +16,13 @@ These aspects are covered:
 * JDK21 based spring boot web service (a games database)
   * Spring Boot default metrics
   * Service shows how to export your own custom metrics.
+  * Build-Pipeline that builds the project on each commit. 
+  [A code coverage report is generated and published to the projects website](https://github.com/CWACoderWithAttitude/dc-spring-boot-all-in-one).
 * Monitoring:
   * Prometheus to gather metrics
   * Grafana to visualize gathered metrics
   * Alertmanager to send alert messages - based on gathered metrics.
+* [Bruno](https://github.com/usebruno/bruno) API-Request Collection  
 * Mailcatcher as FakeSMTP to enable sending alert mails 
 * MSSQL DB 2022
 * Adminer as GUI tool to manage DBs
