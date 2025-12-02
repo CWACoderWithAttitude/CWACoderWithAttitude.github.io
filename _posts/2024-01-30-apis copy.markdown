@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Spring Boot All-In-One-Devcontainer"
+date: 2024-01-30 00:30:10 +0200
+categories: [web]
+tags: [api,java,spring-boot,postgresql,monitoring,prometheus]
+---
+
+Starting a new project for a microservice based on spring boot makes you consider a lot of things.
+
+[This is on opinionated template](https://github.com/CWACoderWithAttitude/dc-spring-boot-all-in-one) that should get you kickstarted.
+It contains a micro service implemented with spring boot and JDK21.
+These aspects are covered:
+
+* Container based local development
+* JDK21 based spring boot web service (a games database)
+  * Spring Boot default metrics
+  * Service shows how to export your own custom metrics.
+* Monitoring:
+  * Prometheus to gather metrics
+  * Grafana to visualize gathered metrics
+  * Alertmanager to send alert messages - based on gathered metrics.
+* Mailcatcher as FakeSMTP to enable sending alert mails 
+* MSSQL DB 2022
+* Adminer as GUI tool to manage DBs
+* MSSQL Tools if you don't like GUIs
+
+You can click the green `Use this template` to create a your own project.
