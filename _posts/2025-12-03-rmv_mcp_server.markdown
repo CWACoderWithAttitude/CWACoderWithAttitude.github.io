@@ -22,10 +22,10 @@ please group result by city.
 
 ## MCP?
 
-Model -> The LLMs brains
-Context -> Your question
-Protocol -> Communication between the ChatBot and MCP server
+* Model -> The LLMs brains
+* Context -> Your question
+* Protocol -> Communication between the ChatBot and MCP server
 
-https://github.com/CWACoderWithAttitude/rmv-mcp-server[I built an example showing the possibilities with public transport data in Frankfurt, germany].
+[I built an example showing the possibilities with public transport data in Frankfurt, Germany](https://github.com/CWACoderWithAttitude/rmv-mcp-server).
 
 
