@@ -10,13 +10,13 @@ Last week i showcased one of the most impressive tools in AI i've seen so far: M
 The audience was company wide - open to technical and non-technical listeners during a developer exchange with my employer.
 
 Most data is hidden in databases, filesystems, mail-servers, Sharepoint, Jira,... or  behind APIs.
-Accesible very often only by writing code, SQL quueries... 
+Accesible very often only by writing code, SQL quueries etc.
 
 MCP servers bring super powers to users because they can query company data using natural language.
 
 Think of queries like:
 ```
-Which products generated most revenue during christmas season last year. 
+Which products generated most revenue during christmas season last year.
 please group result by city.
 ```
 
