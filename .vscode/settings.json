@@ -1,2 +1,13 @@
 {
+    // Run markdownlint fixes on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": "explicit"
+    },
+    // Ensure markdownlint runs on save (extension-specific setting; safe to include)
+    "markdownlint.run": "onSave",
+    // Optional: workspace-specific markdownlint rule overrides
+    "markdownlint.config": {
+        // example: disable line length rule MD013 if you prefer soft-wrapped lines
+        "MD013": false
+    }
 }
