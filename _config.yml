@@ -22,9 +22,10 @@ title: C.W.A. - Coder with Attitude
 description: Talk is cheap - Show me the code #>-
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.volker-benders.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JavaVolker
 github_username:  CWACoderWithAttitude@gmail.com
+linkedin_username: volkerbenders
 author: Volker
 # Build settings
 markdown: kramdown
