@@ -15,6 +15,7 @@ Accesible very often only by writing code, SQL quueries etc.
 MCP servers bring super powers to users because they can query company data using natural language.
 
 Think of queries like:
+
 ```
 Which products generated most revenue during christmas season last year.
 please group result by city.
@@ -27,5 +28,3 @@ please group result by city.
 * Protocol -> Communication between the ChatBot and MCP server
 
 [I built an example showing the possibilities with public transport data in Frankfurt, Germany](https://github.com/CWACoderWithAttitude/rmv-mcp-server).
-
-
