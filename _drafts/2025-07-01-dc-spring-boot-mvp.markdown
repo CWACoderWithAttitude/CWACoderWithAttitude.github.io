@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring Boot MVP Devcontainer"
-date: 2025-07.01 12:30:10 +0200
+date: 2025-07-01 12:30:10 +0200
 categories: [web]
 tags: [api,java,spring-boot,postgresql,monitoring,prometheus]
 ---
