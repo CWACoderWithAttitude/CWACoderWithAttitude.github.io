@@ -20,12 +20,16 @@
   ],
   // Use 'postCreateCommand' to run commands after the container is created.
   //"postCreateCommand": "sh .devcontainer/post-create.sh",
+  "postCreateCommand": "bundle install --verbose",
+  //"postStartCommand": "bundle exec jekyll serve --baseurl=\"\"",
+  //"postStartCommand": "bundle exec jekyll serve --host=0.0.0.0 --livereload --baseurl=\"\"",
   "customizations": {
     "vscode": {
       "extensions": [
         "wesbos.theme-cobalt2",
         "eamodio.gitlens",
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "google.geminicodeassist"
       ]
     }
   },
@@ -35,5 +39,6 @@
   // "customizations": {},
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
-  "remoteUser": "vscode"
+  //"remoteUser": "vscode"
+  "shutdownAction": "stopCompose"
 }
