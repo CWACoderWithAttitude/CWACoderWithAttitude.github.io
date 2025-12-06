@@ -1,0 +1,29 @@
+{
+  "name": "jekyll",
+  //"dockerfile": "Dockerfile",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "forwardPorts": [
+    // Jekyll server
+    4000,
+    // Live reload server
+    35729
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "wesbos.theme-cobalt2",
+        "eamodio.gitlens",
+        "mhutchie.git-graph"
+      ]
+    }
+  },
+  "service": "jekyll",
+  "workspaceFolder": "/srv/jekyll"
+  // Configure tool-specific properties.
+  // "customizations": {},
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+  //"remoteUser": "vscode"
+}

@@ -6,7 +6,7 @@ categories: [web]
 tags: [api]
 ---
 
-> Disclaimer: Data shown here is most likely incorrect.
+> Disclaimer: Data shown here is most likely incorrect or outdated.
 > Use at your own risk.
 > The main purpose is a kinda cheat sheet i can refer to.
 
@@ -25,7 +25,7 @@ tags: [api]
 | [favqs.com/api/](https://favqs.com/api/)                                     | Quotes                                         |
 | [api.nasa.gov](https://api.nasa.gov)                                         | Everything space related                       |
 | [docs.mapbox.com/api](https://docs.mapbox.com/api)                           | Comprehensive tools and accurate location data |
-| [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)         |                                                |
+| [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)         | Free fake and reliable API for testing and prototyping.|
 | []( https://dev.api.basf.com/chemical/)                                                                         |                                                |
 | []()                                                                         |                                                |
 
