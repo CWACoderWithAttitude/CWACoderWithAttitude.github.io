@@ -29,7 +29,9 @@
         "wesbos.theme-cobalt2",
         "eamodio.gitlens",
         "mhutchie.git-graph",
-        "google.geminicodeassist"
+        "google.geminicodeassist",
+        "streetsidesoftware.code-spell-checker-german",
+        "streetsidesoftware.code-spell-checker-canadian-english"
       ]
     }
   },

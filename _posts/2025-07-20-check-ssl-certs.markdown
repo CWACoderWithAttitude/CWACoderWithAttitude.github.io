@@ -21,7 +21,7 @@ My task was checking every https endpoint for valid certs:
 
 We wrote scripts to consume those excel lists, transform them and process every system / endpoint.
 
-I had done similar tasls in te past. But not at this scale.
+I had done similar tasks in te past. But not at this scale.
 
 My first attempt involved shell scripts and openssl: Gets the job done but required way to muc time.
 
