@@ -9,9 +9,9 @@ tags: [ssl, cert, expired, valid]
 # The problem
 Our solution to issue, administer and maintain certificates for SSL encryption had to be updated.
 
-The transition process was quite challenging. The numbeer of involved certs and application using them was humongous.
+The transition process was quite challenging. The number of involved certs and application using them was humongous.
 
-Every service and appliction was documented in excel.
+Every service and application was documented in excel.
 
 My task was checking every https endpoint for valid certs:
 - It had to be issued by the new CA
