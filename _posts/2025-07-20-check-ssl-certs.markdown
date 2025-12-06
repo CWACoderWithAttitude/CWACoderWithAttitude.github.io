@@ -31,7 +31,7 @@ Next iteration was implemented in python: much better. Faster, easier to maintai
 
 Then i decided to to try a [Rust](https://rust-lang.org) based approach.
 
-Clean as pyton and fast as hell 🔥!
+Clean as python and fast as hell 🔥!
 
 [Rust SSL-Cert-Checker](https://github.com/CWACoderWithAttitude/ssl-cert-checker)
 
