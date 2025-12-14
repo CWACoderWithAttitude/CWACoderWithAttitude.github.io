@@ -16,8 +16,7 @@ ruby "~> 3.2"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
-#gem "architect", "~> 0.1.0"
+gem "jekyll-theme-hacker"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

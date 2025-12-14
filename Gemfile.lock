@@ -276,7 +276,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 232)
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
+  jekyll-theme-hacker
 
 RUBY VERSION
    ruby 3.3.10p183
