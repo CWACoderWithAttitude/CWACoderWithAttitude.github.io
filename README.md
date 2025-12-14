@@ -12,3 +12,6 @@ https://jekyllrb.com/docs/usage/
 
 ## A11y
 I included [an accessibilty checker](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/) using a github workflow.
+
+## Links
+* [Run GitHub Pages Locally in a Dev Container](https://blog.nimblepros.com/blogs/github-pages-with-dev-containers/)
