@@ -6,7 +6,35 @@ categories: [AI, KI]
 tags: [mcp, stdio, uv, python]
 ---
 
+## TL;DR
+MCP servers connect ChatBots and AI agents to the real world: 
+
+They open up the possibility to ask natural language questions on custom data.
+
+## How it works
+I'll show you how to connect claude desktop to an MCP server.
+
+### Different approaches
+
+There're three ways to integrate MCP servers:
+- STDOIO
+- HTTP
+- SSE (legacy)
+
+#### STDIO
+Used when MCP server and chatbot / AI agent run on the same machine
+
+#### HTTP
+In case both components run on different hosts, for redundancy or scalability.
+
+#### SSE (legacy)
+Server Sent Events is what was used in the beginning. It's still supported 
+
+
+## Show me the code
+
 [I built an example showing the possibilities with public transport data in Frankfurt, Germany](https://github.com/CWACoderWithAttitude/rmv-mcp-server).
+
 
 You can use "normal" queries like :
 ```
@@ -14,11 +42,12 @@ I want to go from Königsteiner Strasse in Höchst to Landgasthof Alt Bischofshe
 ```
 
 Using the chat bots 
-- `LLM` (the model - thats what the model "M" in MCP stands for) the bot/agent understands the
+- `LLM` (the model - that's what the model "M" in MCP stands for) the bot/agent understands the
 - `question` (that would be the context "C" in MCP): the query is split into main concepts  and then 
 - uses `external` resources - public RMV in this case - to answer the question.
 The standardized communication makes up for the protocol "P" in MCP.
 
+The above question leads to this answer:
 ```
 Ich helfe dir gerne bei der Routenplanung mit dem RMV! Lass mich zunächst die beiden Stationen suchen.
 ...
