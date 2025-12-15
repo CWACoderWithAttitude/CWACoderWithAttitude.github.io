@@ -31,7 +31,8 @@
         "mhutchie.git-graph",
         "google.geminicodeassist",
         "streetsidesoftware.code-spell-checker-german",
-        "streetsidesoftware.code-spell-checker-canadian-english"
+        "streetsidesoftware.code-spell-checker-canadian-english",
+        "DavidAnson.vscode-markdownlint"
       ]
     }
   },
