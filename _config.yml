@@ -19,13 +19,14 @@ title: C.W.A. - Coder with Attitude
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
-description: Talk is cheap - Show me the code (config) #>-
+description: Talk is cheap - Show me the code #>-
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.volker-benders.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JavaVolker
 github_username:  CWACoderWithAttitude
 linkedin_username: volkerbenders
+resume_website_url: "https://www.volker-benders.de/resume"
 author: Volker
 # Build settings
 markdown: kramdown

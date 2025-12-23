@@ -6,10 +6,21 @@ categories: [web]
 tags: [ssl, cert, expired, valid]
 ---
 
-# The problem
-Our solution to issue, administer and maintain certificates for SSL encryption had to be updated.
+# TL;DR
+SSL Cert Checker lets you check the validity for a bunch of endpoints
 
-The transition process was quite challenging. The number of involved certs and application using them was humongous.
+## Problem
+
+Our previous CA software had reached EOL. 
+
+So we had to setup a new one and incrementally rollout new certs to application. During transition time two valid certs were used: old certs issued by trhe legacy CA. And new certs issued by the new CA software.
+
+To assist ensuring all apps have valid certs i designed a small tool.
+This tool enabled us to see which apps already use new certs and which ones need attention.
+
+## Challenge
+
+The number of involved certs and applications using them was humongous.
 
 Every service and application was documented in excel.
 
