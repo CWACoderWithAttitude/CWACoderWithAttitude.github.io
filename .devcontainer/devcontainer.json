@@ -9,18 +9,16 @@
     // Live reload server
     35729
   ],
-  "postCreateCommand": "bundle install --verbose",
+  //"postCreateCommand": "bundle install --verbose",
+  "postCreateCommand": "make install",
   "customizations": {
     "vscode": {
       "extensions": [
         "wesbos.theme-cobalt2",
-        "eamodio.gitlens",
-        "mhutchie.git-graph",
-        "google.geminicodeassist",
         "streetsidesoftware.code-spell-checker-german",
-        "streetsidesoftware.code-spell-checker-canadian-english",
         "streetsidesoftware.code-spell-checker",
-        "DavidAnson.vscode-markdownlint"
+        "DavidAnson.vscode-markdownlint",
+        "google.geminicodeassist"
       ]
     }
   },

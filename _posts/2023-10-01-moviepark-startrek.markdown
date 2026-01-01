@@ -9,13 +9,18 @@ tags: [startrek, tng, movie park]
 Some impressions from a visit to movie park, bottrop kirchhellenn, germay
 
 |:--:|
-| *Space* |
+| *Federatio Plaza!* |
 | ![Welcome to Federatio Plaza!](/images/moviepark/IMG_1864.png)
 | ![space-1.jpg](/images/moviepark/IMG_1864.png)
+| *Borg Attack!* |
 | ![space-1.jpg](/images/moviepark/IMG_1865.png)
+| *Admission by Fastpas is quicker than this* |
 | ![space-1.jpg](/images/moviepark/IMG_1869.png)
+| *First impression* |
 | ![space-1.jpg](/images/moviepark/IMG_1870.png)
+| *Everybody love the NCC1701-D* |
 | ![space-1.jpg](/images/moviepark/IMG_1872.png)
+| *Waiting to bord the ride...* |
 | ![space-1.jpg](/images/moviepark/IMG_1879.png)
 | ![space-1.jpg](/images/moviepark/IMG_1880.png)
 | ![space-1.jpg](/images/moviepark/IMG_1881.png)
