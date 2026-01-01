@@ -35,14 +35,4 @@ Some impressions from a visit to movie park, bottrop kirchhellenn, germay
 | ![space-1.jpg](/images/moviepark/IMG_1894.png)
 | ![space-1.jpg](/images/moviepark/IMG_1895.png)
 | ![space-1.jpg](/images/moviepark/IMG_1896.png)
-|:--:|
-| *Space* |
 
-{% for image in site.images %}
-
-
-         <img src="{{ file.url }}" />
-
-{% endfor %}
-
-| *end for* |
