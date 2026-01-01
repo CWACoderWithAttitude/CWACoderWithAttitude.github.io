@@ -15,7 +15,7 @@ Some impressions from a visit to movie park, bottrop kirchhellenn, germay
 | ![space-1.jpg](/images/moviepark/IMG_1864.png)
 | *Borg Attack!* |
 | ![space-1.jpg](/images/moviepark/IMG_1865.png)
-| *Admission by Fastpas is quicker than this* |
+| *Admission to the ride can be accellerated by a Fastpass* |
 | ![space-1.jpg](/images/moviepark/IMG_1869.png)
 | *First impression* |
 | ![space-1.jpg](/images/moviepark/IMG_1870.png)
