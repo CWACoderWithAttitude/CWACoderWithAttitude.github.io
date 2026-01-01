@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Moviepark > Startrk"
+title: "Moviepark > Startrek"
 date: 2023-09-30 00:30:10 +0200
 categories: [startrek]
 tags: [startrek, tng, movie park]
