@@ -1,10 +1,11 @@
 ---
 layout: default
 title: "Moviepark > Startrk"
-date: 2023-10-01 00:30:10 +0200
+date: 2023-09-30 00:30:10 +0200
 categories: [startrek]
 tags: [startrek, tng, movie park]
 ---
+# Volkes Personal Log, Stardate [-299651.14](https://stardatecalculator.com):
 
 Some impressions from a visit to movie park, bottrop kirchhellenn, germay
 
