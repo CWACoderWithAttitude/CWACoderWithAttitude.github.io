@@ -19,7 +19,7 @@ Some impressions from a visit to movie park, bottrop kirchhellenn, germay
 | ![space-1.jpg](/images/moviepark/IMG_1869.png)
 | *First impression* |
 | ![space-1.jpg](/images/moviepark/IMG_1870.png)
-| *Everybody love the NCC1701-D* |
+| *Everybody loves the NCC1701-D* |
 | ![space-1.jpg](/images/moviepark/IMG_1872.png)
 | *Waiting to bord the ride...* |
 | ![space-1.jpg](/images/moviepark/IMG_1879.png)
