@@ -6,6 +6,8 @@ verify:
 	bundle exec jekyll --version
 serve: install
 	bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload
+serve_drafts: install
+	bundle exec jekyll serve --drafts --host 0.0.0.0 --port 4000 --livereload
 # these targets can be used to test the running setup
 curl_local:
 	curl http://localhost:4000

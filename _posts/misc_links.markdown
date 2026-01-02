@@ -3,6 +3,7 @@ layout: post
 title:  "Misc Links"
 date:   2018-10-20 10:20:17 +0200
 categories: links misc
+tags: [esp32, adobe aem, piwik, diagrams, micropython, monitorng, nodejs, python]
 ---
 # Links for this and that
 List of Links i stumbled upon and considered worth remembering. At least for me :-)
@@ -49,7 +50,7 @@ https://github.com/LilyGO/ESP32-Camera
 * [WebRepl - GitHub](https://github.com/micropython/webrepl)
 * [WebRepl - MicroPython](https://micropython.org/webrepl/?)
 * [Access webrepl](https://learn.adafruit.com/micropython-basics-esp8266-webrepl/access-webrepl)
-* [DHT22 Timeout](https://forum.micropython.org/viewtopic.php?t=3128)  
+* [DHT22 Timeout](https://forum.micropython.org/viewtopic.php?t=3128)
 
 
 ## NodeJs
