@@ -1,6 +1,6 @@
 # C.W.A. - Coder With Attitude
 
-These pages developed with visual studio code and devcontainers. Please refer 
+These pages arevdeveloped with visual studio code and devcontainers. Please refer 
 to [devcontainer.json](./.devcontainer) for details.
 
 * [about-github-pages-and-jekyll](https://docs.github.com/de/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
