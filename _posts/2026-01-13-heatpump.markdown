@@ -9,7 +9,7 @@ tags: [energy, heatpump]
 ## Projekt Wärmepumpe
 Bilder vom Aufstellungsort der Wärmepumpe, der vorhandenen Heizung und des Zählerkastens
 
-{% assign heatpump_images = site.static_files | where_exp: "file", "file.path contains 'images/heatpump'" | where_exp: "file", "file.extname == '.png'" | sort: "name" %}
+{% assign heatpump_images = site.static_files | where_exp: "file", "file.path contains 'images/heatpump'" | where_exp: "file", "file.extname == '.jpg'" | sort: "name" %}
 
 <div class="gallery">
 {% for image in heatpump_images %}
