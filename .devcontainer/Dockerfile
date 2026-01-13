@@ -1,7 +1,7 @@
 # Create a Jekyll container for GitHub Pages
 # See this for current supported versions: https://pages.github.com/versions/
 FROM ruby:3.3
-
+RUN apt update && apt install -y imagemagick 
 # Update the Ruby bundler
 RUN gem update bundler 
 

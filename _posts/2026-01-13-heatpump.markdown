@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Projekt Renewable_Energy    "
+date: 2026-01-13 12:00:00 +0200
+categories: [GoGreen]
+tags: [energy, heatpump]
+---
+
+## Projekt Wärmepumpe
+Bilder vom Aufstellungsort der Wärmepumpe, der vorhandenen Heizung und des Zählerkastens
+
+{% assign heatpump_images = site.static_files | where_exp: "file", "file.path contains 'images/heatpump'" | where_exp: "file", "file.extname == '.png'" | sort: "name" %}
+
+<div class="gallery">
+{% for image in heatpump_images %}
+  <div class="gallery-item">
+    <a href="{{ site.baseurl }}{{ image.path }}">
+      <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}">{{ image.name }}
+    </a>
+  </div>
+{% endfor %}
+</div>
