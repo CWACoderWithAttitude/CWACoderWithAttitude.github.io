@@ -24,6 +24,6 @@
   },
   "service": "jekyll",
   "workspaceFolder": "/site",
-  "postStartCommand": "make serve",
+  //"postStartCommand": "make serve",
   "shutdownAction": "stopCompose"
 }
