@@ -7,6 +7,10 @@ tags: [energy, heatpump]
 ---
 
 ## Projekt Wärmepumpe
+
+Die Firma, die die Wärmepumpe installiert, möchte ein paar Bilder. 
+So wollen sie sich vor dem ersten Vor-Ort-Termin gescheit vorbereiten.
+
 Bilder vom Aufstellungsort der Wärmepumpe, der vorhandenen Heizung und des Zählerkastens
 
 {% assign heatpump_images = site.static_files | where_exp: "file", "file.path contains 'images/heatpump'" | where_exp: "file", "file.extname == '.jpg'" | sort: "name" %}
