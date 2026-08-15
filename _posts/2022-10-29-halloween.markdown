@@ -6,7 +6,7 @@ categories: [fun]
 tags: [fun, halloweeen, pumpkins, scary]
 permalink: /halloween_2022
 ---
-I like Halloween - colon.   
+I like Halloween - colon.
 
 |Dateiname|Bild|
 |---|---|

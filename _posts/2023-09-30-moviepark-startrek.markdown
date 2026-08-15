@@ -5,7 +5,7 @@ date: 2023-09-30 00:30:10 +0200
 categories: [startrek]
 tags: [startrek, tng, movie park]
 ---
-# Volkes Personal Log, Stardate [-299651.14](https://stardatecalculator.com):
+# Volkes Personal Log, Stardate [-299651.14](https://stardatecalculator.com)
 
 Some impressions from a visit to movie park, bottrop kirchhellenn, germay
 
@@ -35,4 +35,3 @@ Some impressions from a visit to movie park, bottrop kirchhellenn, germay
 | ![space-1.jpg](/images/moviepark/IMG_1894.png)
 | ![space-1.jpg](/images/moviepark/IMG_1895.png)
 | ![space-1.jpg](/images/moviepark/IMG_1896.png)
-

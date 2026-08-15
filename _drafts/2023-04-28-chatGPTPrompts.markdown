@@ -14,7 +14,6 @@ I can hardly solve my own simple questions so i deciced to memorize those Prompt
 
 This is his [prompting cheat sheet](https://t.co/4so8jC6Dpq). Actually i was so amazed by the first 3 prompts that i started creating my cheat sheet. Only to learn Rowan creted one already - lesson learned: read the whole story before start typing ;-)
 
-
 |Problem|Prompt|
 |---|---|
 |1. Exlain like I#M a beginner|Prompt: "Explain [topic] in simple terms. Explain to me as if I'm a beginner."|

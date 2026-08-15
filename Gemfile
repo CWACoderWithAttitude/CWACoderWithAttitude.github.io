@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "~> 3.2"
+ruby ">= 3.2"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -13,15 +13,14 @@ ruby "~> 3.2"
 
 # If you want to use GitHub Pages, use the github-pages gem instead.
 # To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 232", group: :jekyll_plugins
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "jekyll"
 gem "jekyll-theme-hacker"
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
+gem "jekyll-feed"
+gem "jekyll-remote-theme"
+gem "kramdown-parser-gfm"
+gem "logger"
+gem "base64"
+gem "bigdecimal"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 #gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

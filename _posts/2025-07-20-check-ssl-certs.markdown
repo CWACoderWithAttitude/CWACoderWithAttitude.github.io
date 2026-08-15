@@ -7,11 +7,12 @@ tags: [ssl, cert, expired, valid]
 ---
 
 # TL;DR
+
 SSL Cert Checker lets you check the validity for a bunch of endpoints
 
 ## Problem
 
-Our previous CA software had reached EOL. 
+Our previous CA software had reached EOL.
 
 So we had to setup a new one and incrementally rollout new certs to application. During transition time two valid certs were used: old certs issued by trhe legacy CA. And new certs issued by the new CA software.
 
@@ -25,6 +26,7 @@ The number of involved certs and applications using them was humongous.
 Every service and application was documented in excel.
 
 My task was checking every https endpoint for valid certs:
+
 - It had to be issued by the new CA
 - It should not be expired
 
@@ -45,7 +47,3 @@ Then i decided to to try a [Rust](https://rust-lang.org) based approach.
 Clean as python and fast as hell 🔥!
 
 [Rust SSL-Cert-Checker](https://github.com/CWACoderWithAttitude/ssl-cert-checker)
-
-
-
-

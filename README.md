@@ -1,16 +1,15 @@
 # C.W.A. - Coder With Attitude
 
-These pages arevdeveloped with visual studio code and devcontainers. Please refer 
+These pages arevdeveloped with visual studio code and devcontainers. Please refer
 to [devcontainer.json](./.devcontainer) for details.
 
 * [about-github-pages-and-jekyll](https://docs.github.com/de/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 * [testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/de/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
-
 ## ToDos
 
-- `docker compose -f .devcontainer/docker-compose.yml up` works. but devcontainer won't start?!
-- [Generate thumbnail for every image in folder](https://stackoverflow.com/questions/72006611/generate-thumbnail-for-every-image-in-folder)
+* `docker compose -f .devcontainer/docker-compose.yml up` works. but devcontainer won't start?!
+* [Generate thumbnail for every image in folder](https://stackoverflow.com/questions/72006611/generate-thumbnail-for-every-image-in-folder)
 
 ## A11y
 

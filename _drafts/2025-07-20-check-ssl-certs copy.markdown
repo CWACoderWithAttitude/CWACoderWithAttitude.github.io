@@ -17,10 +17,11 @@ tags: [docker, podman, devcontainers]
 Warning: podman 5.7.1 already installed
 ```
 
-2. Initialize the Podman VM
+1. Initialize the Podman VM
 Docker containers - or more specific OCI containers - are a linux thing.
 
 So initialize and fire up the VM that runs a tiny linux instance
+
 ```
 ❯ podman machine init
 Looking up Podman Machine image at quay.io/podman/machine-os:5.7 to create VM
@@ -33,7 +34,7 @@ Extracting compressed file: podman-machine-default-arm64.raw: done
 Machine init complete
 To start your machine run:
 
-	podman machine start
+ podman machine start
 
   ~/Dev/volker/dev-container-repo/articles/dc-spring-boot-keycloak   keycloak ⇡3 !11 ?5 ············  1m 37s  system  23:26:13
 ❯ podman machine start
@@ -43,7 +44,7 @@ This machine is currently configured in rootless mode. If your containers
 require root permissions (e.g. ports < 1024), or if you run into compatibility
 issues with non-podman clients, you can switch using the following command:
 
-	podman machine set --rootful
+ podman machine set --rootful
 
 API forwarding listening on: /var/folders/y_/sh3qh6bj2td30hdc4x6dp9280000gn/T/podman/podman-machine-default-api.sock
 
@@ -56,8 +57,9 @@ following command in your terminal session:
 Machine "podman-machine-default" started successfully
 ```
 
-3. Env Update
+1. Env Update
 I added this to the end of my  `~/.zshrc`
+
 ```
 DOCKER_HOST='unix:///var/folders/y_/sh3qh6bj2td30hdc4x6dp9280000gn/T/podman/podman-machine-default-api.sock'
 alias docker=podman

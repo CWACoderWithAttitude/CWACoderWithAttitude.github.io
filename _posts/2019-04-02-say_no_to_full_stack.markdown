@@ -9,7 +9,7 @@ permalink: /say_no_to_fullstack/
 I'm a bit confused why so many people claim they want Full Stack Developers.
 
 During the time of my professional career i've seen some companies or teams or individuals trying to be "Full Stack".  
-Lets put it like that: The results were not what you'd expect to see.   
+Lets put it like that: The results were not what you'd expect to see.
 Nor what the customer wants
 
 * What about the discussion about cross-functional teams?
@@ -53,8 +53,6 @@ Lets try to find out what a "Full Stack Developer" actually is:
 A full stack developer is an engineer who can handle all the work of databases, servers, systems engineering, and clients. Depending on the project, what customers need may be a mobile stack, a Web stack, or a native application stack.
 
 ---
-
-
 
 [w3schools](https://www.w3schools.com/whatis/whatis_fullstack.asp):
 

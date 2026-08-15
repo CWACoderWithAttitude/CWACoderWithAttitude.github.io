@@ -10,7 +10,6 @@ tags: [security, terminology]
 
 # Terms used when talking OAuth2
 
-
 | Term                     | Meaning                                                                                  |
 | ------------------------ | ---------------------------------------------------------------------------------------- |
 | Resource Owner           | Person really owning the data (emails, bitcoin, bankaccount...)                          |
@@ -30,7 +29,7 @@ tags: [security, terminology]
 
 The scope send in step 2.c is used to build the consent dialog
 
-## Types of Authorization Grants:
+## Types of Authorization Grants
 
 1. Code : Most common one: Code Grant
 
@@ -48,5 +47,5 @@ The scope send in step 2.c is used to build the consent dialog
 1. Authorization Server verifies this code
 1. Client uses Access Token to access data on Resource Server (contacts.apple.com,...)
 
-- https://www.youtube.com/watch?v=996OiexHze0&t=22s
-- https://www.youtube.com/watch?v=LLQqjEW-RAA
+- <https://www.youtube.com/watch?v=996OiexHze0&t=22s>
+- <https://www.youtube.com/watch?v=LLQqjEW-RAA>

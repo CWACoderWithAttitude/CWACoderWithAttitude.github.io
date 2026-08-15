@@ -16,14 +16,14 @@ These aspects are covered:
 * JDK21 based spring boot web service (a games database)
   * [Spring Boot default metrics](https://docs.spring.io/spring-boot/reference/actuator/metrics.html)
   * Service shows how to export your own custom metrics.
-  * Build-Pipeline that builds the project on each commit. 
+  * Build-Pipeline that builds the project on each commit.
   [A code coverage report is generated and published to the projects website](https://github.com/CWACoderWithAttitude/dc-spring-boot-all-in-one).
 * Monitoring:
   * [Prometheus](https://prometheus.io) to gather metrics
   * [Grafana](https://grafana.com) to visualize gathered metrics
   * [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) to send alert messages - based on gathered metrics.
 * [Bruno](https://github.com/usebruno/bruno) API-Request Collection  
-* Mailcatcher as FakeSMTP to enable sending alert mails 
+* Mailcatcher as FakeSMTP to enable sending alert mails
 * MSSQL DB 2022
 * Adminer as GUI tool to manage DBs
 * MSSQL Tools if you don't like GUIs

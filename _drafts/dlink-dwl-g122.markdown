@@ -5,9 +5,10 @@ date:   2019-04-02 23:11:17 +0200
 categories: [hacking]
 tags: [lego, mindstorms, ev3, scratch]
 ---
-https://ubuntuforums.org/showthread.php?t=2396466
+<https://ubuntuforums.org/showthread.php?t=2396466>
 
 ## The Bitcoin_Developer_Guide_Vereinfachte_Bitcoin_BlockChain_D
+
 ```bash
 $ ssh robot@192.168.178.30
 The authenticity of host '192.168.178.30 (192.168.178.30)' can't be established.

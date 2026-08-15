@@ -13,14 +13,13 @@ tags: [photos, indexing, tag, docker, mariadb]
 I'll try out [Photo-Prism App](https://docs.photoprism.app/getting-started/docker-compose/#__tabbed_1_1) to see if it can assist me in managing my photos.
 Let's see how easy it is and how far we can get. Today.
 
-
 1. Download the wget [docker-compose.yml](https://dl.photoprism.app/docker/docker-compose.yml)  
 
 ```yaml
 $> wget https://dl.photoprism.app/docker/docker-compose.yml
 ```
 
-2. Inspect docker-compose.yml
+1. Inspect docker-compose.yml
 
 ```shell
 $> docker compose config
@@ -120,7 +119,7 @@ networks:
     name: photoprism_default
 ```
 
-3. Nothing unusual so far - lets give it a try
+1. Nothing unusual so far - lets give it a try
 
 ```shell
 $> docker compose up -d && docker compose logs -f
@@ -284,9 +283,9 @@ photoprism-photoprism-1  | time="2023-03-18T18:52:31Z" level=info msg="server: t
 photoprism-photoprism-1  | time="2023-03-18T18:52:31Z" level=info msg="server: listening on 0.0.0.0:2342 [11.31275ms]"
 ```
 
-4. Start indexing
+1. Start indexing
 
-I accessed http://localhost:2342/library/index[Prism Index Page] and clicked on "Start".
+I accessed <http://localhost:2342/library/index[Prism> Index Page] and clicked on "Start".
 
 ![prism_index_page.png](/images/prism_index_page.png)
 

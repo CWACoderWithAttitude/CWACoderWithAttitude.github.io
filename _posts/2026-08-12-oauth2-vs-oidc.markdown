@@ -6,7 +6,7 @@ categories: [security, web]
 tags: [OAuth2, OIDC, Authentication, Authorization]
 ---
 
-If you've ever built a web app, integrated Google/GitHub login, or set up an API gateway, you've almost certainly bumped into **OAuth 2.0** and **OIDC (OpenID Connect)**. 
+If you've ever built a web app, integrated Google/GitHub login, or set up an API gateway, you've almost certainly bumped into **OAuth 2.0** and **OIDC (OpenID Connect)**.
 
 People often mix them up or treat them as interchangeable. They aren't. Let's clear up the confusion with a simple analogy.
 
@@ -24,9 +24,9 @@ People often mix them up or treat them as interchangeable. They aren't. Let's cl
 
 Imagine you go to a fancy resort:
 
-1. **OAuth 2.0 is your Valet Ticket.** 
+1. **OAuth 2.0 is your Valet Ticket.**
    When you hand your car keys to the valet, you give them permission (*authorization*) to park and retrieve your car. The valet doesn't need to know your life story, your passport number, or who you are; they just need proof that you authorized them to drive *this* car.
-2. **OIDC is your Hotel Room Key Card (with your ID checked at check-in).** 
+2. **OIDC is your Hotel Room Key Card (with your ID checked at check-in).**
    When you check into the front desk, the hotel verifies your identity (*authentication*) and gives you a key card that proves who you are and what room you belong in.
 
 ---
@@ -61,4 +61,3 @@ OIDC uses OAuth 2.0's exact same infrastructure, flows (like Authorization Code 
 | **Core Question** | *"What can this app do?"* | *"Who is this user?"* |
 | **Key Artifact** | Access Token | ID Token (JWT) + Access Token |
 | **Scope Required** | Any custom scope | Must include `openid` |
-

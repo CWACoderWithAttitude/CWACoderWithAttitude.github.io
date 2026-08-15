@@ -6,11 +6,14 @@ categories: [testing]
 tags: [experimemnt, testbed]
 
 ---
-# Testbed 
+# Testbed
+
 Stuff here is subject to change without notice and is most probably not what you want to copy ;-)
 
 ## Using Mermaid in your Docs on github
+
 ### [C4]()
+
 ```mermaid
 C4Context
       title System Context diagram for Internet Banking System
@@ -55,7 +58,9 @@ C4Context
 
       UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
 ```
+
 ### architecture
+
 ```mermaid
 architecture-beta
     group api(cloud)[API]

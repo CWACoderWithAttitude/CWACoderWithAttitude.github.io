@@ -7,9 +7,11 @@ tags: [micropython,NodeMCU, ESP8266, ESP32]
 
 ---
 # Python on MicroControllers
+
 This serves as my todo list on setting up MicroPython on ESP 8266 and ESP 32 micro controllers.
 
 1. Identify your Chip
+
 ```shell
 ❯ esptool.py --port /dev/tty.usbserial-140 flash_id
 esptool.py v2.8
@@ -28,9 +30,11 @@ Device: 4016
 Detected flash size: 4MB
 Hard resetting via RTS pin...
 ```
-The `Detected flash size: 4MB` indicates we can use the latest regular [MicroPython image](https://micropython.org/resources/firmware/esp8266-20220618-v1.19.1.bin).   
 
-2. Erase flash memory
+The `Detected flash size: 4MB` indicates we can use the latest regular [MicroPython image](https://micropython.org/resources/firmware/esp8266-20220618-v1.19.1.bin).
+
+1. Erase flash memory
+
 ```shell
 ❯ esptool.py --port /dev/tty.usbserial-140 erase_flash
 esptool.py v2.8
@@ -49,7 +53,8 @@ Chip erase completed successfully in 11.2s
 Hard resetting via RTS pin...
 ```
 
-2. Deploy MicroPython
+1. Deploy MicroPython
+
 ```shell
 ❯ esptool.py --port /dev/tty.usbserial-140 --baud 460800 write_flash --flash_size=detect 0 ~/Downloads/esp8266-20220618-v1.19.1.bin
 esptool.py v2.8
@@ -75,21 +80,24 @@ Leaving...
 Hard resetting via RTS pin...
 ```
 
-3. Enable Wifi and connect the MCU to your WLAN   
-The default REPL is available via serial connection.   
-We'll use this serial connection to setup WiFi.   
+1. Enable Wifi and connect the MCU to your WLAN
+The default REPL is available via serial connection.
+We'll use this serial connection to setup WiFi.
 I use `screen` here - but any terminal emulator should do:
+
 ```shell
 > screen /dev/tty.usbserial-140 115200
 ```
 
-4. Press the return key until you see this:
+1. Press the return key until you see this:
+
 ```shell
 >>> 
 ```
 
-5. Configure WLAN access   
-Replace `"<AP_name>"` and `"<password>"` with your values...      
+1. Configure WLAN access
+Replace `"<AP_name>"` and `"<password>"` with your values...
+
 ```shell
 >>> import network
 >>> sta_if = network.WLAN(network.STA_IF);
@@ -97,9 +105,11 @@ Replace `"<AP_name>"` and `"<password>"` with your values...
 >>> sta_if.connect("<AP_name>", "<password>")
 >>> sta.if.isconnected()
 ```
+
 The last statement should return `True`.
 
-6. Lets find out the device IP:
+1. Lets find out the device IP:
+
 ```shell
 >>> sta_if.isconnected()
 True
@@ -107,9 +117,9 @@ True
 ('192.168.178.66', '255.255.255.0', '192.168.178.1', '192.168.178.1')
 ```
 
-
-7. Enable WebRepl   
+1. Enable WebRepl
 Once the Board joined your network it's time to [use the webrepl](git@github.com:micropython/webrepl.git).
+
 ```shell
 >>> import webrepl_setup
 WebREPL daemon auto-start status: disabled
@@ -122,7 +132,9 @@ Confirm password: itzelbritzel
 Changes will be activated after reboot
 Would you like to reboot now? (y/n) y
 ```
-Answering `y` to the last question leads to somethong to this:    
+
+Answering `y` to the last question leads to somethong to this:
+
 ```shell
 Would you like to reboot now? (y/n) y
 >>>
@@ -144,7 +156,9 @@ Started webrepl in normal mode
 MicroPython v1.19.1 on 2022-06-18; ESP module with ESP8266
 Type "help()" for more information.
 ```
+
 Verify Micropython persisted your WiFi credentials:
+
 ```shell
 ...
 MicroPython v1.19.1 on 2022-06-18; ESP module with ESP8266
@@ -156,6 +170,7 @@ True
 >>> sta_if.ifconfig()
 ('192.168.178.66', '255.255.255.0', '192.168.178.1', '192.168.178.1')
 ```
+
 Since WebREPl uses websockets you need to use the WebRepl Client. I recommend [cloning it from GitHub](https://github.com/micropython/webrepl) and run it on you local machine.
 Just open `webrepl.html` in your brower.
 > Ensure to use either `file:` protocol or `http:`.
@@ -164,8 +179,8 @@ We're done :-)
 
 > In case of trouble please have a look at [the excellent documentation here](http://docs.micropython.org/en/latest/esp8266/quickref.html#networking)
 
-
 The webrepl repo contains a a neat tool to copy files to/from the MCU:
+
 ```shell
 ❯ webrepl_cli.py -p itzelbritzel awesome-app.py 192.168.178.66:/awesome-app.py
 op:put, host:192.168.178.66, port:8266, passwd:itzelbritzel.
@@ -173,5 +188,5 @@ awesome-app.py -> /awesome-app.py
 Remote WebREPL version: (1, 19, 1)
 Sent 895 of 895 bytes
 ```
-A great alternative to using the webpage. (see `webrepl_cli.py --help` for details)
 
+A great alternative to using the webpage. (see `webrepl_cli.py --help` for details)

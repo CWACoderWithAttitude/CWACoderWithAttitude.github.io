@@ -8,7 +8,7 @@ tags: [zsh, raspi raspberry pi]
 ---
 # Installing zsh on Raspi
 
-I'll follow these [steps](https://pgillich.medium.com/setup-lightweight-kubernetes-with-k3s-6a1c57d62217)   
+I'll follow these [steps](https://pgillich.medium.com/setup-lightweight-kubernetes-with-k3s-6a1c57d62217)
 Nope [this one](https://avilpage.com/2023/03/setup-k8s-anywhere-k3d.html)
 
 # First install zsh
@@ -86,6 +86,7 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 ```
 
 ## Links
+
 * [How to Install and setup Zsh (Z shell) on Raspberry Pi](https://linuxhint.com/install-zsh-raspberry-pi/)
 * [admin dashboard](https://devpress.csdn.net/k8s/62ebf06b19c509286f415df1.html)
 * [install homer dashboard](https://www.datree.io/helm-chart/homer-truecharts)
@@ -93,4 +94,3 @@ Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, them
 * [Traefik Ingress Example YAML and setup in K3s](https://www.virtualizationhowto.com/2022/05/traefik-ingress-example-yaml-and-setup-in-k3s/)  
 * [Ingress with Traefik on K3s](https://itnext.io/ingress-with-treafik-on-k3s-53db6e751ed3)
   
-

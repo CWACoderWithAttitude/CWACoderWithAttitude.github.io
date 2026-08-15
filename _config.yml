@@ -26,6 +26,7 @@ url: "https://www.volker-benders.de" # the base hostname & protocol for your sit
 twitter_username: JavaVolker
 github_username:  CWACoderWithAttitude
 linkedin_username: volkerbenders
+logo: /images/vb_web-development.png
 resume_website_url: "https://www.volker-benders.de/resume"
 author: Volker
 # Build settings

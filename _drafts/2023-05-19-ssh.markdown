@@ -9,7 +9,9 @@ tags: [ssh, scp, secure shell]
 # Misc Studf on SSH
 
 ## Setup SSH Connection to Raspberry Pi
+
 1. Create Key-Pair
+
 ```shell
 ╰─ ssh-keygen -t ed25519 -b 4096 -f ~/.ssh/id_ed25519_raspik3s                                                            ─╯
 Generating public/private ed25519 key pair.
@@ -33,7 +35,8 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-2. Copy Public component to target machine
+1. Copy Public component to target machine
+
 ```shell
 $> cat ~/.ssh/id_ed25519_raspik3s.pub | ssh pi@raspik3s.fritz.box 'umask 0077; mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys'
 ```

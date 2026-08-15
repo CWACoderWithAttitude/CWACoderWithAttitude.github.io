@@ -13,4 +13,6 @@ curl_local:
 	curl http://localhost:4000
 curl_host:
 	curl http://host.docker.internal:4040
+lint:
+	npx markdownlint-cli2 --fix "*.md" "_posts/**/*.markdown" "_drafts/**/*.markdown"
 .PHONY: bundler install verify serve curl_local curl_host

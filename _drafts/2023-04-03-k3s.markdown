@@ -8,7 +8,7 @@ tags: [kubernetes, k3s, k8s]
 ---
 # Installing k3s on M1 Macbook Pro
 
-I'll follow these [steps](https://pgillich.medium.com/setup-lightweight-kubernetes-with-k3s-6a1c57d62217)   
+I'll follow these [steps](https://pgillich.medium.com/setup-lightweight-kubernetes-with-k3s-6a1c57d62217)
 Nope [this one](https://avilpage.com/2023/03/setup-k8s-anywhere-k3d.html)
 
 ```shell
@@ -63,8 +63,8 @@ sudo apt-get update
 sudo apt-get install helm
 ```
 
-
 ## Links
+
 * [nerdctl, k8s](https://tonylixu.medium.com/k8s-why-use-nerdctl-for-containerd-f4ea49bcf900?source=read_next_recirc---two_column_layout_sidebar------1---------------------ab573e00_2fd3_4b55_9497_c96f2530ed7f-------)
 * [admin dashboard](https://devpress.csdn.net/k8s/62ebf06b19c509286f415df1.html)
 * [install homer dashboard](https://www.datree.io/helm-chart/homer-truecharts)
@@ -72,4 +72,3 @@ sudo apt-get install helm
 * [Traefik Ingress Example YAML and setup in K3s](https://www.virtualizationhowto.com/2022/05/traefik-ingress-example-yaml-and-setup-in-k3s/)  
 * [Ingress with Traefik on K3s](https://itnext.io/ingress-with-treafik-on-k3s-53db6e751ed3)
   
-
