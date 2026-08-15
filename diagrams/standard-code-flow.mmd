@@ -1,0 +1,14 @@
+sequenceDiagram
+    autonumber
+    participant User as User / Browser
+    participant Server as Backend Web App (Confidential)
+    participant KC as Keycloak (Auth Server)
+    
+    User->>Server: Requests protected page
+    Server->>KC: Redirects user to Keycloak login
+    User->>KC: Authenticates successfully
+    KC->>Server: Redirects with auth `code`
+    Server->>KC: POST /token (code + Client Secret)
+    Note over Server,KC: Secret proves backend identity
+    KC->>Server: Returns Tokens (Access, ID, Refresh)
+    Server->>User: Sets session cookie & renders page

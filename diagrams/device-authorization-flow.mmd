@@ -1,0 +1,19 @@
+sequenceDiagram
+    autonumber
+    participant CLI as CLI Tool / Smart TV
+    participant KC as Keycloak (Auth Server)
+    participant Phone as User's Phone / Laptop
+    
+    CLI->>KC: POST /auth/device (client_id)
+    KC->>CLI: Returns `user_code`, `verification_uri`, `device_code`
+    CLI->>User: Display: "Go to URL & enter code"
+    
+    User->>Phone: Navigates to verification_uri & enters code
+    Phone->>KC: Authenticates & grants access
+    
+    loop Polling (every X seconds)
+        CLI->>KC: POST /token (grant_type=device_code & device_code=...)
+        KC->>CLI: Returns pending or Access + Refresh Tokens
+    end
+    
+    CLI->>User: Authentication complete!

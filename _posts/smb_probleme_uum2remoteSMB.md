@@ -1,7 +1,7 @@
 # smb verbindungs-problem
 
 [SMB-HOWTO8](https://www.tldp.org/HOWTO/SMB-HOWTO-8.html)
- 
+
 auf remote vm (78.94.81.228):
 
 ```
@@ -9,9 +9,11 @@ sudo apt-get install smbclient
 ```
 
 local connect to samba service:
+
 ```
 smbclient //127.0.0.1/volker --user=volker volker
 ```
+
 funzt
 
 ### test auf 78.94.81.228 über EXT_SYN_2
@@ -46,17 +48,14 @@ PORT    STATE SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
 ```
---> Verbindung kann aufgebaut werden über dir url `cifs://volker:volker@78.94.81.228/volker`
 
+--> Verbindung kann aufgebaut werden über dir url `cifs://volker:volker@78.94.81.228/volker`
 
 ## Performance
 
-|Was|Zeit / LAN | Zeit / WLAN|
+|Was|Zeit / LAN|Zeit / WLAN|
 |---|---|---|
-|Präsi (19MB) speichern |0|50s|
-|Präsi (19MB) lokal öffnen & remote speichern |0|50s|
+|Präsi (19MB) speichern|0|50s|
+|Präsi (19MB) lokal öffnen & remote speichern|0|50s|
 |Präsi (19MB) kopieren von share zu mir|0|13s|
 |Präsi (19MB) kopieren vom mir auf share|0|20s|
-
-
-

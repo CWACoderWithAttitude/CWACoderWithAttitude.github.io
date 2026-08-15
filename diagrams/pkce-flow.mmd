@@ -1,0 +1,14 @@
+sequenceDiagram
+    autonumber
+    participant User as User / Browser
+    participant App as SPA / Mobile App (Public)
+    participant KC as Keycloak (Auth Server)
+    
+    User->>App: Clicks "Login"
+    Note over App: Generate code_verifier & code_challenge (PKCE)
+    App->>KC: Redirect to /auth?response_type=code&code_challenge=...
+    User->>KC: Enters credentials & consents
+    KC->>App: Redirects back with auth `code`
+    App->>KC: POST /token (code + code_verifier)
+    KC->>App: Returns Access Token, ID Token, Refresh Token
+    App->>User: Login successful!
