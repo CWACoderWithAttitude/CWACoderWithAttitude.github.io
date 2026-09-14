@@ -5,3 +5,4 @@ _site
 Gemfile.lock
 **/*.heic
 jekyll.log
+/images/heic
