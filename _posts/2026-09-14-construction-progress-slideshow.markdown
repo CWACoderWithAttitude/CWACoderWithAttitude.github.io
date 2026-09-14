@@ -8,7 +8,7 @@ categories: [Project, Construction]
 tags: [Construction, Progress, Slideshow, Timeline]
 ---
 
-Here is a chronological visual timeline of the construction site progress, captured from start to finish.
+Here is a chronological visual timeline of the construction site progress, captured from start to finish. I'll add new impressions as soon as they're available.
 
 <div class="slideshow-container">
   <div class="slide-header">
